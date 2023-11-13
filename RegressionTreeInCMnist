@@ -1,1 +1,1168 @@
+#include <stdio.h>
 
+/* -------------------------------- ÁRVORE -------------------------------- */
+
+double score(double * input) {
+    double var0;
+    if (input[52] <= 5.5) {
+        if (input[29] <= 10.5) {
+            if (input[35] <= 1.5) {
+                if (input[33] <= 1.5) {
+                    if (input[28] <= 9.5) {
+                        var0 = 9.0;
+                    } else {
+                        if (input[26] <= 10.0) {
+                            var0 = 3.0;
+                        } else {
+                            var0 = 5.0;
+                        }
+                    }
+                } else {
+                    var0 = 0.0;
+                }
+            } else {
+                if (input[26] <= 0.5) {
+                    if (input[60] <= 11.5) {
+                        if (input[19] <= 10.5) {
+                            var0 = 7.0;
+                        } else {
+                            var0 = 8.0;
+                        }
+                    } else {
+                        if (input[20] <= 2.0) {
+                            var0 = 6.0;
+                        } else {
+                            if (input[37] <= 1.5) {
+                                var0 = 2.0;
+                            } else {
+                                var0 = 3.0;
+                            }
+                        }
+                    }
+                } else {
+                    if (input[21] <= 10.5) {
+                        if (input[34] <= 0.5) {
+                            if (input[54] <= 5.0) {
+                                if (input[52] <= 2.0) {
+                                    var0 = 8.0;
+                                } else {
+                                    var0 = 7.0;
+                                }
+                            } else {
+                                if (input[45] <= 4.5) {
+                                    var0 = 2.0;
+                                } else {
+                                    var0 = 3.0;
+                                }
+                            }
+                        } else {
+                            if (input[19] <= 15.5) {
+                                if (input[21] <= 1.5) {
+                                    if (input[59] <= 15.5) {
+                                        if (input[20] <= 6.0) {
+                                            if (input[42] <= 9.0) {
+                                                var0 = 5.0;
+                                            } else {
+                                                if (input[5] <= 12.5) {
+                                                    var0 = 6.0;
+                                                } else {
+                                                    var0 = 5.0;
+                                                }
+                                            }
+                                        } else {
+                                            if (input[58] <= 13.5) {
+                                                if (input[58] <= 7.0) {
+                                                    var0 = 8.0;
+                                                } else {
+                                                    var0 = 9.0;
+                                                }
+                                            } else {
+                                                var0 = 7.0;
+                                            }
+                                        }
+                                    } else {
+                                        if (input[20] <= 6.0) {
+                                            if (input[51] <= 7.5) {
+                                                var0 = 5.0;
+                                            } else {
+                                                var0 = 6.0;
+                                            }
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    }
+                                } else {
+                                    if (input[46] <= 11.5) {
+                                        if (input[60] <= 1.0) {
+                                            var0 = 7.0;
+                                        } else {
+                                            if (input[29] <= 8.0) {
+                                                var0 = 8.0;
+                                            } else {
+                                                var0 = 9.0;
+                                            }
+                                        }
+                                    } else {
+                                        var0 = 3.0;
+                                    }
+                                }
+                            } else {
+                                if (input[18] <= 11.0) {
+                                    var0 = 6.0;
+                                } else {
+                                    var0 = 1.0;
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[4] <= 8.5) {
+                            if (input[60] <= 5.5) {
+                                var0 = 4.0;
+                            } else {
+                                var0 = 8.0;
+                            }
+                        } else {
+                            if (input[3] <= 14.5) {
+                                if (input[42] <= 1.0) {
+                                    var0 = 9.0;
+                                } else {
+                                    if (input[51] <= 14.5) {
+                                        var0 = 8.0;
+                                    } else {
+                                        var0 = 9.0;
+                                    }
+                                }
+                            } else {
+                                if (input[61] <= 6.0) {
+                                    var0 = 7.0;
+                                } else {
+                                    var0 = 8.0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            if (input[28] <= 1.5) {
+                if (input[58] <= 0.5) {
+                    var0 = 1.0;
+                } else {
+                    var0 = 0.0;
+                }
+            } else {
+                if (input[60] <= 5.5) {
+                    if (input[2] <= 0.5) {
+                        if (input[62] <= 0.5) {
+                            var0 = 4.0;
+                        } else {
+                            var0 = 1.0;
+                        }
+                    } else {
+                        if (input[25] <= 8.0) {
+                            if (input[17] <= 7.0) {
+                                var0 = 7.0;
+                            } else {
+                                if (input[42] <= 5.0) {
+                                    var0 = 9.0;
+                                } else {
+                                    var0 = 7.0;
+                                }
+                            }
+                        } else {
+                            var0 = 4.0;
+                        }
+                    }
+                } else {
+                    if (input[5] <= 11.5) {
+                        if (input[21] <= 5.5) {
+                            if (input[54] <= 12.5) {
+                                if (input[5] <= 2.0) {
+                                    var0 = 6.0;
+                                } else {
+                                    var0 = 5.0;
+                                }
+                            } else {
+                                var0 = 9.0;
+                            }
+                        } else {
+                            if (input[43] <= 4.0) {
+                                if (input[42] <= 8.5) {
+                                    var0 = 9.0;
+                                } else {
+                                    var0 = 8.0;
+                                }
+                            } else {
+                                if (input[30] <= 8.0) {
+                                    var0 = 8.0;
+                                } else {
+                                    var0 = 9.0;
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[2] <= 4.5) {
+                            if (input[41] <= 3.5) {
+                                var0 = 9.0;
+                            } else {
+                                var0 = 8.0;
+                            }
+                        } else {
+                            if (input[44] <= 1.0) {
+                                if (input[37] <= 15.0) {
+                                    var0 = 5.0;
+                                } else {
+                                    var0 = 3.0;
+                                }
+                            } else {
+                                var0 = 8.0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        if (input[36] <= 0.5) {
+            if (input[28] <= 8.0) {
+                if (input[43] <= 14.5) {
+                    if (input[22] <= 10.5) {
+                        if (input[18] <= 4.0) {
+                            if (input[61] <= 5.0) {
+                                var0 = 0.0;
+                            } else {
+                                if (input[5] <= 6.0) {
+                                    var0 = 2.0;
+                                } else {
+                                    if (input[58] <= 6.0) {
+                                        var0 = 4.0;
+                                    } else {
+                                        var0 = 3.0;
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[45] <= 1.5) {
+                                var0 = 2.0;
+                            } else {
+                                var0 = 0.0;
+                            }
+                        }
+                    } else {
+                        var0 = 9.0;
+                    }
+                } else {
+                    if (input[45] <= 12.5) {
+                        if (input[54] <= 3.0) {
+                            var0 = 5.0;
+                        } else {
+                            var0 = 6.0;
+                        }
+                    } else {
+                        var0 = 4.0;
+                    }
+                }
+            } else {
+                if (input[25] <= 1.0) {
+                    if (input[29] <= 6.0) {
+                        var0 = 8.0;
+                    } else {
+                        var0 = 9.0;
+                    }
+                } else {
+                    var0 = 5.0;
+                }
+            }
+        } else {
+            if (input[20] <= 11.5) {
+                if (input[63] <= 0.5) {
+                    if (input[13] <= 7.5) {
+                        if (input[27] <= 13.5) {
+                            if (input[20] <= 3.5) {
+                                if (input[44] <= 14.5) {
+                                    if (input[21] <= 6.0) {
+                                        if (input[51] <= 5.5) {
+                                            if (input[2] <= 0.5) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 5.0;
+                                            }
+                                        } else {
+                                            if (input[58] <= 5.5) {
+                                                if (input[41] <= 8.5) {
+                                                    if (input[60] <= 5.5) {
+                                                        var0 = 5.0;
+                                                    } else {
+                                                        if (input[22] <= 7.0) {
+                                                            var0 = 6.0;
+                                                        } else {
+                                                            var0 = 7.0;
+                                                        }
+                                                    }
+                                                } else {
+                                                    var0 = 4.0;
+                                                }
+                                            } else {
+                                                var0 = 5.0;
+                                            }
+                                        }
+                                    } else {
+                                        if (input[18] <= 14.5) {
+                                            if (input[36] <= 9.0) {
+                                                var0 = 9.0;
+                                            } else {
+                                                var0 = 8.0;
+                                            }
+                                        } else {
+                                            var0 = 4.0;
+                                        }
+                                    }
+                                } else {
+                                    if (input[29] <= 3.5) {
+                                        if (input[54] <= 2.5) {
+                                            if (input[5] <= 4.0) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 5.0;
+                                            }
+                                        } else {
+                                            var0 = 6.0;
+                                        }
+                                    } else {
+                                        if (input[14] <= 12.0) {
+                                            if (input[13] <= 4.0) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 0.0;
+                                            }
+                                        } else {
+                                            var0 = 7.0;
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[37] <= 2.5) {
+                                    var0 = 2.0;
+                                } else {
+                                    if (input[38] <= 0.5) {
+                                        if (input[30] <= 1.0) {
+                                            if (input[37] <= 6.5) {
+                                                var0 = 6.0;
+                                            } else {
+                                                var0 = 5.0;
+                                            }
+                                        } else {
+                                            var0 = 4.0;
+                                        }
+                                    } else {
+                                        if (input[26] <= 10.0) {
+                                            var0 = 3.0;
+                                        } else {
+                                            if (input[10] <= 12.0) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 5.0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[21] <= 10.0) {
+                                if (input[12] <= 15.5) {
+                                    if (input[18] <= 2.5) {
+                                        if (input[59] <= 9.5) {
+                                            if (input[27] <= 15.5) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 6.0;
+                                            }
+                                        } else {
+                                            var0 = 2.0;
+                                        }
+                                    } else {
+                                        if (input[42] <= 4.5) {
+                                            if (input[3] <= 3.5) {
+                                                var0 = 9.0;
+                                            } else {
+                                                if (input[30] <= 6.0) {
+                                                    var0 = 5.0;
+                                                } else {
+                                                    var0 = 4.0;
+                                                }
+                                            }
+                                        } else {
+                                            if (input[22] <= 2.0) {
+                                                var0 = 6.0;
+                                            } else {
+                                                var0 = 8.0;
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[42] <= 8.0) {
+                                        var0 = 3.0;
+                                    } else {
+                                        var0 = 1.0;
+                                    }
+                                }
+                            } else {
+                                if (input[42] <= 7.0) {
+                                    var0 = 9.0;
+                                } else {
+                                    var0 = 8.0;
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[34] <= 0.5) {
+                            if (input[30] <= 1.5) {
+                                if (input[61] <= 0.5) {
+                                    if (input[50] <= 2.5) {
+                                        var0 = 7.0;
+                                    } else {
+                                        if (input[18] <= 7.5) {
+                                            var0 = 3.0;
+                                        } else {
+                                            var0 = 5.0;
+                                        }
+                                    }
+                                } else {
+                                    if (input[45] <= 9.5) {
+                                        if (input[43] <= 0.5) {
+                                            var0 = 1.0;
+                                        } else {
+                                            if (input[43] <= 1.5) {
+                                                var0 = 3.0;
+                                            } else {
+                                                var0 = 2.0;
+                                            }
+                                        }
+                                    } else {
+                                        var0 = 3.0;
+                                    }
+                                }
+                            } else {
+                                if (input[59] <= 4.5) {
+                                    var0 = 2.0;
+                                } else {
+                                    if (input[27] <= 8.0) {
+                                        var0 = 7.0;
+                                    } else {
+                                        if (input[52] <= 13.5) {
+                                            var0 = 9.0;
+                                        } else {
+                                            var0 = 8.0;
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[21] <= 1.5) {
+                                if (input[59] <= 10.0) {
+                                    if (input[42] <= 8.0) {
+                                        var0 = 7.0;
+                                    } else {
+                                        var0 = 6.0;
+                                    }
+                                } else {
+                                    if (input[19] <= 14.0) {
+                                        var0 = 5.0;
+                                    } else {
+                                        var0 = 3.0;
+                                    }
+                                }
+                            } else {
+                                if (input[52] <= 15.5) {
+                                    if (input[41] <= 5.5) {
+                                        if (input[26] <= 9.5) {
+                                            if (input[50] <= 6.5) {
+                                                if (input[38] <= 0.5) {
+                                                    var0 = 3.0;
+                                                } else {
+                                                    var0 = 7.0;
+                                                }
+                                            } else {
+                                                var0 = 8.0;
+                                            }
+                                        } else {
+                                            if (input[21] <= 9.5) {
+                                                if (input[28] <= 12.5) {
+                                                    if (input[6] <= 8.5) {
+                                                        var0 = 8.0;
+                                                    } else {
+                                                        var0 = 7.0;
+                                                    }
+                                                } else {
+                                                    if (input[49] <= 0.5) {
+                                                        var0 = 6.0;
+                                                    } else {
+                                                        var0 = 5.0;
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[43] <= 6.5) {
+                                                    if (input[29] <= 14.5) {
+                                                        if (input[45] <= 6.0) {
+                                                            var0 = 9.0;
+                                                        } else {
+                                                            var0 = 8.0;
+                                                        }
+                                                    } else {
+                                                        var0 = 9.0;
+                                                    }
+                                                } else {
+                                                    if (input[35] <= 12.5) {
+                                                        var0 = 9.0;
+                                                    } else {
+                                                        if (input[38] <= 4.5) {
+                                                            var0 = 8.0;
+                                                        } else {
+                                                            var0 = 7.0;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[34] <= 8.5) {
+                                            if (input[50] <= 15.0) {
+                                                var0 = 2.0;
+                                            } else {
+                                                var0 = 4.0;
+                                            }
+                                        } else {
+                                            if (input[25] <= 1.5) {
+                                                if (input[26] <= 1.5) {
+                                                    var0 = 7.0;
+                                                } else {
+                                                    var0 = 8.0;
+                                                }
+                                            } else {
+                                                var0 = 4.0;
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[36] <= 4.5) {
+                                        if (input[4] <= 15.5) {
+                                            var0 = 0.0;
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    } else {
+                                        if (input[14] <= 0.5) {
+                                            if (input[37] <= 8.0) {
+                                                if (input[41] <= 4.5) {
+                                                    var0 = 3.0;
+                                                } else {
+                                                    var0 = 2.0;
+                                                }
+                                            } else {
+                                                if (input[37] <= 13.5) {
+                                                    var0 = 5.0;
+                                                } else {
+                                                    var0 = 4.0;
+                                                }
+                                            }
+                                        } else {
+                                            if (input[29] <= 0.5) {
+                                                if (input[25] <= 2.5) {
+                                                    var0 = 3.0;
+                                                } else {
+                                                    var0 = 5.0;
+                                                }
+                                            } else {
+                                                if (input[19] <= 3.5) {
+                                                    var0 = 7.0;
+                                                } else {
+                                                    if (input[10] <= 7.0) {
+                                                        var0 = 9.0;
+                                                    } else {
+                                                        var0 = 8.0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    if (input[52] <= 9.5) {
+                        var0 = 6.0;
+                    } else {
+                        if (input[27] <= 8.0) {
+                            var0 = 2.0;
+                        } else {
+                            var0 = 1.0;
+                        }
+                    }
+                }
+            } else {
+                if (input[51] <= 15.5) {
+                    if (input[61] <= 10.5) {
+                        if (input[18] <= 10.5) {
+                            if (input[11] <= 14.5) {
+                                if (input[60] <= 8.5) {
+                                    if (input[42] <= 1.0) {
+                                        var0 = 3.0;
+                                    } else {
+                                        if (input[3] <= 5.0) {
+                                            var0 = 4.0;
+                                        } else {
+                                            if (input[51] <= 12.5) {
+                                                var0 = 8.0;
+                                            } else {
+                                                var0 = 7.0;
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[34] <= 12.5) {
+                                        if (input[58] <= 1.0) {
+                                            var0 = 1.0;
+                                        } else {
+                                            if (input[11] <= 13.5) {
+                                                if (input[43] <= 6.5) {
+                                                    var0 = 3.0;
+                                                } else {
+                                                    if (input[42] <= 2.5) {
+                                                        var0 = 3.0;
+                                                    } else {
+                                                        var0 = 2.0;
+                                                    }
+                                                }
+                                            } else {
+                                                var0 = 8.0;
+                                            }
+                                        }
+                                    } else {
+                                        var0 = 4.0;
+                                    }
+                                }
+                            } else {
+                                if (input[50] <= 2.5) {
+                                    if (input[29] <= 9.0) {
+                                        if (input[52] <= 9.5) {
+                                            var0 = 1.0;
+                                        } else {
+                                            if (input[53] <= 7.0) {
+                                                var0 = 4.0;
+                                            } else {
+                                                var0 = 3.0;
+                                            }
+                                        }
+                                    } else {
+                                        var0 = 7.0;
+                                    }
+                                } else {
+                                    if (input[19] <= 6.5) {
+                                        var0 = 2.0;
+                                    } else {
+                                        if (input[44] <= 3.0) {
+                                            var0 = 9.0;
+                                        } else {
+                                            var0 = 8.0;
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[27] <= 10.5) {
+                                if (input[21] <= 13.5) {
+                                    if (input[37] <= 8.5) {
+                                        if (input[58] <= 1.0) {
+                                            var0 = 1.0;
+                                        } else {
+                                            var0 = 2.0;
+                                        }
+                                    } else {
+                                        if (input[53] <= 12.5) {
+                                            if (input[46] <= 1.0) {
+                                                var0 = 5.0;
+                                            } else {
+                                                var0 = 4.0;
+                                            }
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    }
+                                } else {
+                                    if (input[38] <= 1.0) {
+                                        var0 = 8.0;
+                                    } else {
+                                        var0 = 9.0;
+                                    }
+                                }
+                            } else {
+                                if (input[21] <= 3.5) {
+                                    if (input[34] <= 9.0) {
+                                        if (input[20] <= 13.0) {
+                                            var0 = 5.0;
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    } else {
+                                        var0 = 8.0;
+                                    }
+                                } else {
+                                    if (input[5] <= 15.5) {
+                                        if (input[46] <= 8.5) {
+                                            if (input[37] <= 3.5) {
+                                                var0 = 8.0;
+                                            } else {
+                                                if (input[33] <= 0.5) {
+                                                    var0 = 9.0;
+                                                } else {
+                                                    var0 = 8.0;
+                                                }
+                                            }
+                                        } else {
+                                            var0 = 5.0;
+                                        }
+                                    } else {
+                                        var0 = 5.0;
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[46] <= 7.5) {
+                            if (input[6] <= 11.0) {
+                                if (input[10] <= 8.0) {
+                                    if (input[41] <= 6.0) {
+                                        if (input[58] <= 5.5) {
+                                            var0 = 1.0;
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    } else {
+                                        var0 = 4.0;
+                                    }
+                                } else {
+                                    if (input[27] <= 14.5) {
+                                        if (input[45] <= 8.0) {
+                                            var0 = 2.0;
+                                        } else {
+                                            var0 = 3.0;
+                                        }
+                                    } else {
+                                        var0 = 9.0;
+                                    }
+                                }
+                            } else {
+                                var0 = 9.0;
+                            }
+                        } else {
+                            if (input[11] <= 12.5) {
+                                var0 = 3.0;
+                            } else {
+                                var0 = 9.0;
+                            }
+                        }
+                    }
+                } else {
+                    if (input[28] <= 4.5) {
+                        var0 = 9.0;
+                    } else {
+                        if (input[14] <= 11.5) {
+                            if (input[27] <= 13.5) {
+                                if (input[53] <= 1.0) {
+                                    if (input[13] <= 2.5) {
+                                        var0 = 4.0;
+                                    } else {
+                                        var0 = 5.0;
+                                    }
+                                } else {
+                                    if (input[2] <= 2.0) {
+                                        var0 = 1.0;
+                                    } else {
+                                        var0 = 2.0;
+                                    }
+                                }
+                            } else {
+                                var0 = 1.0;
+                            }
+                        } else {
+                            var0 = 8.0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return var0;
+}
+
+/* -------------------------------- ENTRADA E MAIN -------------------------------- */
+
+int main(){
+  double data_test[360][64] = {{0.0, 0.0, 8.0, 16.0, 15.0, 4.0, 0.0, 0.0, 0.0, 10.0, 16.0, 11.0, 13.0, 12.0, 0.0, 0.0, 0.0, 12.0, 7.0, 0.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 7.0, 16.0, 12.0, 5.0, 0.0, 0.0, 5.0, 15.0, 16.0, 16.0, 14.0, 9.0, 0.0, 0.0, 2.0, 8.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 4.0, 0.0, 0.0, 2.0, 11.0, 15.0, 16.0, 16.0, 7.0, 0.0, 0.0, 10.0, 16.0, 13.0, 10.0, 16.0, 4.0, 0.0, 0.0, 1.0, 3.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 6.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 6.0, 9.0, 11.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 16.0, 10.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 11.0, 3.0, 0.0, 0.0, 0.0, 8.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 2.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 4.0, 11.0, 9.0, 1.0, 0.0, 0.0, 4.0, 16.0, 15.0, 8.0, 12.0, 7.0, 0.0, 0.0, 2.0, 14.0, 10.0, 3.0, 13.0, 7.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 8.0, 1.0, 0.0},
+  {0.0, 0.0, 2.0, 14.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 1.0, 16.0, 3.0, 0.0, 0.0, 0.0, 12.0, 13.0, 0.0, 15.0, 6.0, 0.0, 0.0, 1.0, 16.0, 7.0, 1.0, 16.0, 4.0, 0.0, 0.0, 1.0, 16.0, 5.0, 8.0, 16.0, 1.0, 0.0, 0.0, 0.0, 15.0, 13.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 15.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 14.0, 15.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 14.0, 8.0, 9.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 9.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 16.0, 5.0, 5.0, 5.0, 0.0, 0.0, 6.0, 16.0, 16.0, 16.0, 16.0, 13.0},
+  {0.0, 0.0, 4.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 3.0, 0.0, 7.0, 4.0, 0.0, 0.0, 12.0, 16.0, 6.0, 11.0, 16.0, 7.0, 0.0, 0.0, 7.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 0.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 2.0, 14.0, 5.0, 9.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 8.0, 15.0, 5.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 11.0, 9.0, 0.0, 0.0, 4.0, 14.0, 4.0, 4.0, 14.0, 6.0, 0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 11.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 15.0, 9.0, 2.0, 0.0, 0.0, 0.0, 1.0, 16.0, 15.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 15.0, 7.0, 1.0, 12.0, 10.0, 0.0, 0.0, 0.0, 10.0, 14.0, 4.0, 15.0, 12.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 15.0, 5.0, 0.0},
+  {0.0, 0.0, 4.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 9.0, 10.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 15.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 1.0, 12.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 4.0, 12.0, 14.0, 16.0, 12.0, 5.0, 0.0, 0.0, 12.0, 16.0, 16.0, 14.0, 12.0, 5.0, 0.0, 0.0, 0.0, 6.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 12.0, 13.0, 4.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 2.0, 5.0, 9.0, 0.0, 0.0, 0.0, 15.0, 14.0, 11.0, 15.0, 3.0, 0.0, 0.0, 0.0, 7.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 11.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 10.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 11.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 3.0, 16.0, 4.0, 5.0, 1.0, 0.0, 0.0, 0.0, 7.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 11.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 15.0, 1.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 11.0, 13.0, 12.0, 13.0, 5.0, 0.0, 0.0, 0.0, 3.0, 8.0, 1.0, 8.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 6.0, 0.0, 0.0, 0.0, 9.0, 4.0, 3.0, 16.0, 2.0, 0.0, 0.0, 0.0, 4.0, 14.0, 14.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 2.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 8.0, 11.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 12.0, 8.0, 0.0, 0.0, 0.0, 5.0, 16.0, 12.0, 15.0, 14.0, 5.0, 0.0, 0.0, 8.0, 13.0, 9.0, 16.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 1.0, 11.0, 16.0, 13.0, 4.0, 0.0, 0.0, 0.0, 1.0, 15.0, 7.0, 14.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 1.0, 0.0, 0.0, 0.0, 1.0, 10.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 14.0, 7.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.0, 16.0, 3.0, 0.0, 0.0, 5.0, 11.0, 1.0, 1.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 15.0, 16.0, 10.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 15.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 15.0, 1.0, 0.0, 0.0, 0.0, 1.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 15.0, 8.0, 13.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 0.0, 10.0, 7.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 13.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 16.0, 13.0, 12.0, 14.0, 1.0, 0.0, 0.0, 14.0, 4.0, 4.0, 15.0, 4.0, 0.0, 0.0, 1.0, 7.0, 0.0, 10.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 1.0, 0.0, 0.0, 0.0, 2.0, 9.0, 14.0, 16.0, 12.0, 0.0, 0.0, 0.0, 4.0, 6.0, 15.0, 2.0, 4.0, 1.0, 0.0, 0.0, 0.0, 6.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 4.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 10.0, 12.0, 12.0, 2.0, 0.0, 0.0, 1.0, 13.0, 12.0, 6.0, 13.0, 8.0, 0.0, 0.0, 8.0, 16.0, 8.0, 8.0, 14.0, 1.0, 0.0, 0.0, 5.0, 14.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 3.0, 16.0, 2.0, 15.0, 10.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 15.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 4.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 1.0, 11.0, 9.0, 0.0, 0.0, 3.0, 14.0, 8.0, 0.0, 14.0, 10.0, 0.0, 0.0, 10.0, 16.0, 12.0, 12.0, 16.0, 8.0, 0.0, 0.0, 13.0, 16.0, 14.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 16.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 5.0, 16.0, 8.0, 3.0, 16.0, 0.0, 0.0, 0.0, 8.0, 13.0, 0.0, 0.0, 8.0, 7.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 6.0, 8.0, 0.0, 0.0, 8.0, 13.0, 0.0, 4.0, 12.0, 8.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 11.0, 14.0, 8.0, 1.0, 0.0, 0.0},
+  {0.0, 1.0, 8.0, 10.0, 14.0, 10.0, 0.0, 0.0, 0.0, 12.0, 10.0, 6.0, 6.0, 16.0, 2.0, 0.0, 0.0, 3.0, 0.0, 0.0, 7.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 4.0, 0.0, 2.0, 11.0, 9.0, 0.0, 0.0, 0.0, 12.0, 16.0, 14.0, 12.0, 4.0, 0.0},
+  {0.0, 1.0, 9.0, 15.0, 13.0, 4.0, 0.0, 0.0, 0.0, 8.0, 12.0, 4.0, 8.0, 8.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 5.0, 16.0, 3.0, 0.0, 0.0, 4.0, 13.0, 8.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 4.0, 8.0, 2.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 7.0, 0.0, 3.0, 14.0, 6.0, 0.0, 0.0, 0.0, 7.0, 16.0, 14.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 5.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 9.0, 16.0, 6.0, 4.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 16.0, 14.0},
+  {0.0, 2.0, 15.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 5.0, 0.0, 0.0, 1.0, 4.0, 6.0, 13.0, 15.0, 1.0, 0.0, 0.0, 3.0, 15.0, 14.0, 11.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 11.0, 8.0, 4.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 8.0, 12.0, 5.0, 0.0, 0.0, 0.0, 14.0, 13.0, 0.0, 1.0, 15.0, 1.0, 0.0, 0.0, 8.0, 12.0, 0.0, 4.0, 16.0, 2.0, 0.0, 0.0, 0.0, 8.0, 12.0, 13.0, 10.0, 1.0},
+  {0.0, 0.0, 3.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 15.0, 16.0, 15.0, 2.0, 0.0, 0.0, 1.0, 16.0, 8.0, 4.0, 8.0, 11.0, 0.0, 0.0, 1.0, 16.0, 11.0, 7.0, 10.0, 12.0, 0.0, 0.0, 0.0, 5.0, 10.0, 12.0, 15.0, 7.0, 0.0},
+  {0.0, 0.0, 2.0, 11.0, 13.0, 5.0, 0.0, 0.0, 0.0, 1.0, 14.0, 9.0, 8.0, 14.0, 0.0, 0.0, 0.0, 6.0, 13.0, 1.0, 2.0, 16.0, 2.0, 0.0, 0.0, 7.0, 7.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 7.0, 9.0, 0.0, 0.0, 3.0, 9.0, 0.0, 0.0, 2.0, 12.0, 0.0, 0.0, 4.0, 11.0, 0.0, 0.0, 0.0, 12.0, 6.0, 4.0, 14.0, 7.0, 0.0, 0.0, 0.0, 3.0, 13.0, 16.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 12.0, 16.0, 9.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 7.0, 3.0, 0.0, 0.0, 0.0, 4.0, 16.0, 2.0, 8.0, 3.0, 0.0, 0.0, 0.0, 7.0, 16.0, 15.0, 13.0, 16.0, 3.0, 0.0, 0.0, 5.0, 11.0, 1.0, 1.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 10.0, 11.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 6.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 2.0, 6.0, 0.0, 0.0, 4.0, 15.0, 0.0, 1.0, 13.0, 8.0, 0.0, 0.0, 6.0, 16.0, 2.0, 6.0, 14.0, 1.0, 0.0, 0.0, 8.0, 16.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 5.0, 8.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 11.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 16.0, 9.0, 0.0, 0.0, 0.0, 10.0, 16.0, 11.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 7.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 12.0, 16.0, 2.0, 2.0, 0.0, 0.0, 7.0, 11.0, 0.0, 11.0, 12.0, 1.0, 0.0, 0.0, 4.0, 8.0, 6.0, 13.0, 3.0, 0.0, 0.0, 0.0, 3.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 9.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 14.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 11.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 14.0, 11.0, 1.0, 0.0, 0.0, 0.0, 6.0, 15.0, 6.0, 7.0, 10.0, 0.0, 0.0, 0.0, 11.0, 7.0, 0.0, 2.0, 12.0, 0.0, 0.0, 0.0, 5.0, 4.0, 0.0, 1.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 2.0, 3.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 16.0, 6.0},
+  {0.0, 0.0, 15.0, 16.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 14.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 12.0, 1.0, 0.0, 0.0, 1.0, 8.0, 4.0, 9.0, 16.0, 3.0, 0.0, 0.0, 5.0, 14.0, 7.0, 10.0, 15.0, 1.0, 0.0, 0.0, 2.0, 12.0, 16.0, 14.0, 6.0, 0.0, 0.0},
+  {0.0, 2.0, 15.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 14.0, 16.0, 5.0, 0.0, 0.0, 2.0, 14.0, 16.0, 13.0, 9.0, 1.0, 0.0},
+  {0.0, 0.0, 6.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 14.0, 9.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 9.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 16.0, 10.0, 6.0, 0.0, 0.0, 0.0, 10.0, 16.0, 14.0, 11.0, 5.0, 0.0, 0.0, 0.0, 5.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 8.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 4.0, 1.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 14.0, 16.0, 3.0, 0.0, 0.0, 2.0, 14.0, 9.0, 0.0, 11.0, 9.0, 0.0, 0.0, 0.0, 10.0, 14.0, 8.0, 15.0, 5.0, 0.0, 0.0, 0.0, 3.0, 13.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 9.0, 16.0, 4.0, 0.0, 0.0, 0.0, 1.0, 9.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 14.0, 16.0, 14.0, 8.0, 0.0, 0.0, 0.0, 1.0, 15.0, 15.0, 5.0, 16.0, 9.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 11.0, 8.0, 10.0, 0.0, 0.0, 0.0, 3.0, 15.0, 8.0, 12.0, 16.0, 4.0, 0.0, 0.0, 3.0, 12.0, 0.0, 3.0, 16.0, 2.0, 0.0, 0.0, 0.0, 11.0, 10.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 4.0, 16.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 5.0, 16.0, 0.0, 0.0, 0.0, 0.0, 3.0, 10.0, 9.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 4.0, 6.0, 2.0, 0.0, 0.0, 0.0, 11.0, 16.0, 13.0, 12.0, 13.0, 0.0, 0.0, 0.0, 12.0, 14.0, 4.0, 5.0, 16.0, 2.0, 0.0, 0.0, 1.0, 8.0, 16.0, 13.0, 9.0, 1.0},
+  {0.0, 0.0, 0.0, 9.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 8.0, 0.0, 1.0, 7.0, 0.0, 0.0, 9.0, 14.0, 0.0, 2.0, 13.0, 14.0, 0.0, 0.0, 8.0, 16.0, 14.0, 15.0, 16.0, 6.0, 0.0, 0.0, 1.0, 7.0, 8.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 8.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 13.0, 1.0, 1.0, 0.0, 0.0, 0.0, 10.0, 15.0, 3.0, 15.0, 11.0, 0.0, 0.0, 7.0, 16.0, 7.0, 1.0, 16.0, 8.0, 0.0, 0.0, 9.0, 16.0, 13.0, 14.0, 16.0, 5.0, 0.0, 0.0, 1.0, 10.0, 15.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 12.0, 10.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 7.0, 15.0, 3.0, 8.0, 13.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 14.0, 1.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 7.0, 8.0, 0.0, 0.0, 5.0, 13.0, 0.0, 0.0, 4.0, 8.0, 0.0, 0.0, 0.0, 14.0, 8.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 7.0, 12.0, 13.0, 12.0, 4.0, 0.0},
+  {0.0, 0.0, 13.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 13.0, 12.0, 13.0, 0.0, 0.0, 0.0, 8.0, 13.0, 1.0, 15.0, 16.0, 4.0, 0.0, 0.0, 4.0, 15.0, 13.0, 15.0, 15.0, 10.0, 0.0, 0.0, 0.0, 6.0, 11.0, 3.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 1.0, 7.0, 0.0, 1.0, 9.0, 15.0, 1.0, 0.0, 1.0, 13.0, 16.0, 16.0, 16.0, 6.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 5.0, 10.0, 16.0, 6.0, 0.0, 0.0, 1.0, 7.0, 11.0, 16.0, 13.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 3.0, 8.0, 14.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 12.0, 0.0},
+  {0.0, 0.0, 0.0, 8.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 11.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 11.0, 13.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 16.0, 12.0, 11.0, 5.0, 0.0, 0.0, 0.0, 2.0, 13.0, 0.0, 2.0, 9.0, 0.0, 0.0, 0.0, 0.0, 8.0, 6.0, 2.0, 12.0, 0.0, 0.0, 0.0, 0.0, 1.0, 9.0, 14.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 15.0, 13.0, 12.0, 12.0, 2.0, 0.0, 0.0, 4.0, 16.0, 16.0, 12.0, 6.0, 0.0, 0.0, 0.0, 0.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 5.0, 14.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 4.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 14.0, 4.0, 0.0, 0.0, 0.0, 4.0, 16.0, 9.0, 15.0, 13.0, 3.0, 0.0, 0.0, 4.0, 12.0, 12.0, 16.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 3.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 2.0, 14.0, 12.0, 16.0, 5.0, 0.0, 0.0, 0.0, 10.0, 16.0, 14.0, 16.0, 16.0, 11.0, 0.0, 0.0, 5.0, 12.0, 13.0, 16.0, 8.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 12.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 4.0, 16.0, 1.0, 0.0, 0.0, 2.0, 14.0, 3.0, 6.0, 14.0, 0.0, 0.0, 0.0, 6.0, 16.0, 11.0, 12.0, 12.0, 0.0, 0.0, 0.0, 2.0, 7.0, 14.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 15.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 8.0, 9.0, 8.0, 15.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 8.0, 12.0, 16.0, 5.0, 0.0, 0.0, 3.0, 16.0, 16.0, 16.0, 14.0, 7.0, 0.0, 0.0, 0.0, 3.0, 8.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 3.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 7.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 15.0, 5.0, 0.0, 0.0, 0.0, 14.0, 11.0, 0.0, 1.0, 15.0, 0.0, 0.0, 0.0, 6.0, 11.0, 1.0, 3.0, 14.0, 2.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 7.0, 0.0},
+  {0.0, 2.0, 15.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 3.0, 15.0, 12.0, 5.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 2.0, 13.0, 13.0, 14.0, 2.0, 0.0, 0.0, 0.0, 5.0, 13.0, 0.0, 6.0, 8.0, 0.0, 0.0, 0.0, 4.0, 11.0, 0.0, 1.0, 15.0, 0.0, 0.0, 0.0, 2.0, 12.0, 16.0, 16.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 5.0, 16.0, 12.0, 11.0, 13.0, 0.0, 0.0, 0.0, 3.0, 13.0, 1.0, 5.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 13.0, 13.0, 8.0, 13.0, 16.0, 8.0},
+  {0.0, 0.0, 9.0, 13.0, 15.0, 10.0, 1.0, 0.0, 0.0, 1.0, 15.0, 5.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 15.0, 7.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 2.0, 7.0, 7.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 5.0, 0.0, 0.0, 0.0, 14.0, 6.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 12.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 15.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 2.0, 12.0, 0.0, 0.0, 0.0, 0.0, 16.0, 3.0, 0.0, 12.0, 1.0, 0.0, 0.0, 0.0, 12.0, 11.0, 10.0, 15.0, 0.0, 0.0, 0.0, 0.0, 2.0, 10.0, 15.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 15.0, 2.0, 0.0, 0.0, 0.0, 7.0, 13.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 10.0, 13.0, 12.0, 5.0, 0.0, 0.0, 0.0, 13.0, 13.0, 4.0, 4.0, 12.0, 0.0, 0.0, 3.0, 16.0, 7.0, 4.0, 12.0, 6.0, 0.0, 0.0, 2.0, 15.0, 16.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 14.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 7.0, 10.0, 0.0, 0.0, 0.0, 2.0, 16.0, 15.0, 5.0, 12.0, 2.0, 0.0, 0.0, 7.0, 16.0, 0.0, 0.0, 11.0, 5.0, 0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 12.0, 4.0, 0.0, 0.0, 1.0, 15.0, 0.0, 0.0, 14.0, 2.0, 0.0, 0.0, 0.0, 9.0, 6.0, 7.0, 15.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 13.0, 5.0, 0.0, 0.0, 0.0, 3.0, 14.0, 16.0, 12.0, 15.0, 0.0, 0.0, 0.0, 10.0, 16.0, 8.0, 11.0, 16.0, 0.0, 0.0, 0.0, 8.0, 14.0, 5.0, 14.0, 9.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 11.0, 0.0, 0.0},
+  {0.0, 2.0, 11.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 12.0, 15.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 3.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 15.0, 10.0, 0.0, 0.0, 0.0, 6.0, 12.0, 8.0, 14.0, 11.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 11.0, 3.0, 0.0},
+  {0.0, 0.0, 1.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 3.0, 12.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 7.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 15.0, 16.0, 13.0, 1.0, 0.0, 0.0, 4.0, 16.0, 15.0, 7.0, 15.0, 4.0, 0.0, 0.0, 0.0, 16.0, 6.0, 11.0, 15.0, 2.0, 0.0, 0.0, 0.0, 9.0, 16.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 15.0, 11.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 13.0, 16.0, 11.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 4.0, 14.0, 2.0, 0.0, 0.0, 8.0, 11.0, 1.0, 4.0, 15.0, 2.0, 0.0, 0.0, 3.0, 12.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 1.0, 15.0, 5.0, 11.0, 12.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 7.0, 16.0, 1.0, 0.0, 0.0, 0.0, 5.0, 14.0, 16.0, 15.0, 2.0, 0.0},
+  {0.0, 0.0, 4.0, 10.0, 11.0, 4.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 5.0, 12.0, 12.0, 12.0, 1.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 8.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 4.0, 0.0, 0.0, 0.0, 7.0, 3.0, 5.0, 16.0, 2.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 11.0, 13.0, 9.0, 0.0, 0.0, 0.0, 7.0, 16.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 2.0, 15.0, 12.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 5.0, 7.0, 7.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0, 0.0, 3.0, 7.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 11.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 12.0, 16.0, 8.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 13.0, 16.0, 14.0, 16.0, 12.0, 0.0, 0.0, 0.0, 11.0, 6.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 1.0, 10.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 3.0, 15.0, 10.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 15.0, 1.0, 0.0, 0.0, 8.0, 3.0, 0.0, 3.0, 16.0, 7.0, 0.0, 0.0, 13.0, 15.0, 6.0, 8.0, 16.0, 6.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 3.0, 13.0, 1.0, 14.0, 13.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 5.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 0.0, 0.0, 0.0, 5.0, 6.0, 5.0, 15.0, 4.0, 0.0, 0.0, 0.0, 6.0, 15.0, 16.0, 12.0, 1.0, 0.0},
+  {0.0, 0.0, 8.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 9.0, 4.0, 0.0, 0.0, 0.0, 5.0, 16.0, 14.0, 11.0, 16.0, 5.0, 0.0, 0.0, 2.0, 16.0, 16.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 15.0, 15.0, 1.0, 15.0, 6.0, 0.0, 0.0, 0.0, 7.0, 14.0, 16.0, 13.0, 1.0, 0.0},
+  {0.0, 0.0, 7.0, 14.0, 13.0, 8.0, 0.0, 0.0, 0.0, 1.0, 15.0, 13.0, 14.0, 14.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 13.0, 16.0, 3.0, 0.0, 0.0, 0.0, 4.0, 14.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 4.0, 0.0, 0.0, 7.0, 16.0, 9.0, 10.0, 15.0, 2.0, 0.0, 0.0, 1.0, 8.0, 13.0, 15.0, 8.0, 0.0, 0.0},
+  {0.0, 2.0, 16.0, 12.0, 12.0, 14.0, 7.0, 0.0, 0.0, 3.0, 16.0, 9.0, 8.0, 8.0, 4.0, 0.0, 0.0, 2.0, 16.0, 10.0, 4.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0, 6.0, 3.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 11.0, 11.0, 9.0, 16.0, 3.0, 0.0, 0.0, 0.0, 3.0, 12.0, 15.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 15.0, 9.0, 7.0, 2.0, 0.0, 0.0, 0.0, 12.0, 14.0, 13.0, 12.0, 5.0, 0.0},
+  {0.0, 0.0, 3.0, 15.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 1.0, 7.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 12.0, 5.0, 9.0, 7.0, 0.0, 0.0, 0.0, 10.0, 6.0, 0.0, 6.0, 15.0, 0.0, 0.0, 0.0, 5.0, 11.0, 11.0, 14.0, 15.0, 1.0, 0.0, 0.0, 0.0, 2.0, 7.0, 1.0, 10.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 5.0, 0.0, 0.0, 0.0, 5.0, 3.0, 0.0, 13.0, 5.0, 0.0, 0.0, 0.0, 4.0, 14.0, 14.0, 12.0, 2.0, 0.0},
+  {0.0, 1.0, 15.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 9.0, 9.0, 6.0, 13.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 16.0, 15.0, 12.0, 12.0, 3.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 7.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 4.0, 14.0, 16.0, 16.0, 7.0, 0.0, 0.0, 3.0, 14.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 1.0, 0.0},
+  {0.0, 1.0, 7.0, 13.0, 16.0, 11.0, 0.0, 0.0, 0.0, 11.0, 16.0, 13.0, 15.0, 16.0, 0.0, 0.0, 0.0, 3.0, 8.0, 2.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 11.0, 0.0, 0.0, 0.0, 3.0, 8.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 7.0, 16.0, 12.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 11.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 13.0, 13.0, 1.0, 0.0, 0.0, 0.0, 8.0, 11.0, 0.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 13.0, 15.0, 13.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 3.0, 9.0, 10.0, 0.0, 0.0, 0.0, 0.0, 14.0, 6.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 7.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 11.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 12.0, 9.0, 11.0, 15.0, 1.0, 0.0, 0.0, 0.0, 2.0, 0.0, 4.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 8.0, 15.0, 1.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 15.0, 7.0, 0.0, 0.0, 3.0, 6.0, 4.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 11.0, 13.0, 15.0, 3.0, 0.0, 0.0, 4.0, 16.0, 14.0, 11.0, 16.0, 8.0, 0.0, 0.0, 2.0, 5.0, 0.0, 14.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 8.0, 11.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 14.0, 3.0, 0.0, 0.0},
+  {0.0, 1.0, 11.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 7.0, 16.0, 8.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 2.0, 0.0, 0.0, 1.0, 5.0, 0.0, 0.0, 14.0, 9.0, 0.0, 0.0, 4.0, 16.0, 10.0, 11.0, 16.0, 6.0, 0.0, 0.0, 1.0, 13.0, 16.0, 16.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 14.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 8.0, 15.0, 1.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 2.0, 0.0},
+  {0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 12.0, 4.0, 0.0, 0.0, 4.0, 14.0, 0.0, 10.0, 12.0, 0.0, 0.0, 0.0, 8.0, 7.0, 1.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 1.0, 8.0, 14.0, 12.0, 3.0, 0.0, 0.0, 0.0, 6.0, 13.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 2.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 13.0, 12.0, 15.0, 5.0, 0.0, 4.0, 16.0, 8.0, 12.0, 16.0, 6.0, 0.0, 0.0, 6.0, 12.0, 2.0, 16.0, 7.0, 0.0, 0.0, 0.0, 1.0, 5.0, 9.0, 14.0, 1.0, 0.0, 0.0, 0.0, 1.0, 7.0, 16.0, 12.0, 2.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 12.0, 5.0, 0.0, 0.0, 0.0, 1.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 12.0, 14.0, 12.0, 3.0, 0.0, 0.0, 0.0, 12.0, 5.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 16.0, 2.0, 4.0, 1.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 12.0, 15.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 11.0, 5.0, 0.0, 0.0, 6.0, 14.0, 1.0, 2.0, 15.0, 1.0, 0.0, 0.0, 0.0, 8.0, 14.0, 16.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 16.0, 14.0, 3.0, 0.0, 0.0, 2.0, 14.0, 16.0, 12.0, 10.0, 11.0, 0.0, 0.0, 0.0, 13.0, 12.0, 9.0, 15.0, 10.0, 0.0, 0.0, 0.0, 3.0, 14.0, 14.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 15.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 16.0, 3.0, 0.0, 0.0},
+  {0.0, 4.0, 15.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 9.0, 14.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 1.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 9.0, 8.0, 8.0, 10.0, 0.0, 0.0, 4.0, 15.0, 16.0, 16.0, 16.0, 9.0, 0.0},
+  {0.0, 0.0, 0.0, 6.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 7.0, 12.0, 2.0, 0.0, 0.0, 0.0, 9.0, 16.0, 15.0, 13.0, 6.0, 0.0, 0.0, 0.0, 13.0, 14.0, 2.0, 13.0, 6.0, 0.0, 0.0, 0.0, 14.0, 15.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 1.0, 10.0, 16.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 12.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 14.0, 11.0, 3.0, 0.0, 0.0, 0.0, 1.0, 15.0, 8.0, 13.0, 10.0, 0.0, 0.0, 0.0, 1.0, 15.0, 9.0, 9.0, 15.0, 2.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 4.0, 0.0, 0.0, 0.0, 7.0, 5.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 13.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 12.0, 8.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 11.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 2.0, 12.0, 8.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 7.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 1.0, 6.0, 1.0, 0.0, 0.0, 0.0, 3.0, 15.0, 8.0, 12.0, 13.0, 3.0, 0.0, 0.0, 2.0, 16.0, 2.0, 0.0, 7.0, 12.0, 0.0, 0.0, 0.0, 13.0, 9.0, 4.0, 9.0, 15.0, 0.0, 0.0, 0.0, 3.0, 13.0, 16.0, 15.0, 5.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 12.0, 7.0, 0.0, 0.0, 0.0, 12.0, 14.0, 6.0, 16.0, 14.0, 1.0, 0.0, 0.0, 6.0, 16.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 14.0, 16.0, 10.0, 0.0, 0.0, 0.0, 6.0, 15.0, 8.0, 6.0, 4.0, 0.0, 0.0, 0.0, 5.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 11.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 3.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 12.0, 16.0, 10.0, 0.0, 0.0, 0.0, 2.0, 15.0, 10.0, 6.0, 15.0, 0.0, 0.0, 0.0, 2.0, 7.0, 1.0, 4.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 15.0, 10.0, 5.0, 0.0, 0.0, 0.0, 1.0, 8.0, 8.0, 11.0, 16.0, 6.0},
+  {0.0, 1.0, 11.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 12.0, 9.0, 0.0, 0.0, 0.0, 0.0, 7.0, 8.0, 7.0, 12.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 4.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 16.0, 15.0, 10.0, 0.0, 0.0, 0.0, 13.0, 11.0, 8.0, 12.0, 8.0, 0.0},
+  {0.0, 0.0, 0.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 9.0, 4.0, 7.0, 0.0, 0.0, 0.0, 7.0, 13.0, 1.0, 13.0, 10.0, 6.0, 0.0, 0.0, 14.0, 14.0, 8.0, 16.0, 16.0, 10.0, 0.0, 0.0, 7.0, 15.0, 16.0, 16.0, 7.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 4.0, 11.0, 6.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 11.0, 8.0, 6.0, 1.0, 0.0, 0.0, 0.0, 5.0, 15.0, 12.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 2.0, 10.0, 8.0, 7.0, 15.0, 3.0, 0.0, 0.0, 1.0, 13.0, 16.0, 12.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 3.0, 2.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 15.0, 16.0, 13.0, 4.0, 0.0, 0.0, 4.0, 9.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 15.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 3.0, 12.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 8.0, 11.0, 14.0, 14.0, 5.0, 1.0, 0.0, 0.0, 0.0, 0.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 2.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 6.0, 11.0, 9.0, 3.0, 0.0, 0.0, 1.0, 15.0, 16.0, 12.0, 8.0, 11.0, 0.0, 0.0, 0.0, 9.0, 13.0, 2.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 11.0, 16.0, 14.0, 7.0, 0.0},
+  {0.0, 0.0, 14.0, 12.0, 12.0, 13.0, 0.0, 0.0, 0.0, 1.0, 16.0, 8.0, 8.0, 6.0, 0.0, 0.0, 0.0, 4.0, 15.0, 8.0, 4.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 12.0, 15.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 7.0, 0.0, 0.0, 5.0, 14.0, 4.0, 7.0, 15.0, 2.0, 0.0, 0.0, 1.0, 10.0, 16.0, 15.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 3.0, 15.0, 8.0, 4.0, 15.0, 1.0, 0.0, 0.0, 8.0, 10.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0, 3.0, 15.0, 13.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 2.0, 5.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 13.0, 14.0, 1.0, 0.0, 0.0, 0.0, 7.0, 15.0, 9.0, 13.0, 7.0, 0.0, 0.0, 0.0, 5.0, 15.0, 3.0, 8.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 5.0, 4.0, 4.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 13.0, 16.0, 6.0},
+  {0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 6.0, 5.0, 1.0, 0.0, 0.0, 0.0, 7.0, 15.0, 2.0, 16.0, 3.0, 5.0, 0.0, 0.0, 11.0, 11.0, 6.0, 16.0, 15.0, 10.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 8.0, 1.0, 0.0, 0.0, 4.0, 8.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 8.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 6.0, 15.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 7.0, 6.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 10.0, 2.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 11.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 12.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 1.0, 16.0, 8.0, 0.0, 11.0, 8.0, 0.0, 0.0, 7.0, 14.0, 1.0, 0.0, 10.0, 8.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 13.0, 4.0, 0.0, 0.0, 5.0, 16.0, 8.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 13.0, 5.0, 0.0, 0.0},
+  {0.0, 4.0, 15.0, 16.0, 15.0, 4.0, 0.0, 0.0, 0.0, 11.0, 16.0, 14.0, 15.0, 16.0, 0.0, 0.0, 0.0, 3.0, 3.0, 0.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 15.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 8.0, 4.0, 2.0, 0.0, 0.0, 0.0, 5.0, 16.0, 14.0, 16.0, 15.0, 3.0, 0.0, 0.0, 3.0, 13.0, 1.0, 0.0, 9.0, 9.0, 0.0, 0.0, 0.0, 11.0, 12.0, 4.0, 11.0, 11.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 13.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 12.0, 8.0, 1.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 2.0, 15.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 6.0, 0.0, 0.0},
+  {0.0, 1.0, 15.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 11.0, 14.0, 0.0, 0.0, 0.0, 0.0, 12.0, 10.0, 5.0, 16.0, 0.0, 0.0, 0.0, 0.0, 4.0, 7.0, 8.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 14.0, 10.0, 11.0, 12.0, 1.0, 0.0, 0.0, 13.0, 16.0, 16.0, 15.0, 11.0, 1.0},
+  {0.0, 0.0, 5.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 14.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 8.0, 16.0, 1.0, 0.0, 0.0, 0.0, 4.0, 13.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 2.0, 7.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 6.0, 12.0, 13.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 10.0, 16.0, 13.0, 0.0, 0.0, 0.0, 2.0, 15.0, 15.0, 9.0, 6.0, 0.0, 0.0, 0.0, 5.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 13.0, 15.0, 3.0, 0.0, 0.0, 0.0, 1.0, 3.0, 0.0, 11.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 15.0, 3.0, 0.0, 0.0},
+  {0.0, 4.0, 15.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 2.0, 6.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 13.0, 12.0, 6.0, 0.0, 0.0, 5.0, 16.0, 15.0, 16.0, 12.0, 3.0, 0.0},
+  {0.0, 1.0, 13.0, 14.0, 16.0, 15.0, 7.0, 0.0, 0.0, 4.0, 15.0, 3.0, 3.0, 4.0, 1.0, 0.0, 0.0, 4.0, 13.0, 5.0, 8.0, 5.0, 0.0, 0.0, 0.0, 6.0, 16.0, 12.0, 8.0, 14.0, 2.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 12.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 2.0, 0.0, 0.0, 2.0, 12.0, 3.0, 11.0, 9.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 13.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 14.0, 1.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 10.0, 12.0, 0.0, 0.0, 0.0, 6.0, 16.0, 15.0, 0.0, 13.0, 3.0, 0.0, 0.0, 7.0, 14.0, 5.0, 0.0, 8.0, 9.0, 0.0, 0.0, 6.0, 13.0, 0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 4.0, 15.0, 0.0, 1.0, 14.0, 9.0, 0.0, 0.0, 0.0, 14.0, 8.0, 12.0, 16.0, 3.0, 0.0, 0.0, 0.0, 3.0, 15.0, 15.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 4.0, 16.0, 11.0, 12.0, 12.0, 0.0, 0.0, 0.0, 2.0, 7.0, 1.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 8.0, 0.0, 0.0, 0.0, 5.0, 16.0, 12.0, 15.0, 8.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 13.0, 2.0, 0.0},
+  {0.0, 0.0, 9.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 7.0, 13.0, 2.0, 0.0, 0.0, 0.0, 12.0, 10.0, 1.0, 13.0, 0.0, 0.0, 0.0, 0.0, 4.0, 7.0, 6.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 6.0, 5.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 16.0, 3.0},
+  {0.0, 0.0, 9.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 10.0, 1.0, 0.0, 0.0, 1.0, 12.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 1.0, 11.0, 16.0, 11.0, 4.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 11.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 9.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 8.0, 15.0, 3.0, 0.0, 0.0, 1.0, 15.0, 6.0, 0.0, 11.0, 11.0, 0.0, 0.0, 0.0, 10.0, 15.0, 7.0, 12.0, 16.0, 0.0, 0.0, 0.0, 1.0, 9.0, 15.0, 15.0, 10.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 3.0, 5.0, 0.0, 0.0, 10.0, 15.0, 0.0, 2.0, 15.0, 10.0, 0.0, 0.0, 12.0, 16.0, 14.0, 16.0, 13.0, 1.0, 0.0, 0.0, 2.0, 11.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 9.0, 13.0, 12.0, 2.0, 0.0, 0.0, 1.0, 14.0, 13.0, 7.0, 10.0, 6.0, 0.0, 0.0, 0.0, 13.0, 8.0, 1.0, 7.0, 7.0, 0.0, 0.0, 0.0, 3.0, 13.0, 14.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 5.0, 8.0, 5.0, 0.0, 0.0, 0.0, 0.0, 13.0, 4.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 13.0, 15.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 13.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 8.0, 6.0, 0.0, 0.0, 0.0, 9.0, 15.0, 12.0, 16.0, 16.0, 9.0},
+  {0.0, 0.0, 0.0, 4.0, 15.0, 12.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 16.0, 11.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 14.0, 11.0, 11.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 12.0, 9.0, 1.0, 0.0, 0.0, 0.0, 15.0, 16.0, 14.0, 13.0, 12.0, 0.0, 0.0, 0.0, 14.0, 15.0, 7.0, 0.0, 15.0, 6.0, 0.0, 0.0, 9.0, 14.0, 4.0, 7.0, 15.0, 8.0, 0.0, 0.0, 1.0, 13.0, 16.0, 16.0, 12.0, 1.0},
+  {0.0, 0.0, 0.0, 11.0, 5.0, 3.0, 11.0, 0.0, 0.0, 0.0, 7.0, 14.0, 2.0, 12.0, 9.0, 0.0, 0.0, 2.0, 15.0, 6.0, 3.0, 16.0, 5.0, 0.0, 0.0, 7.0, 16.0, 8.0, 13.0, 16.0, 13.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 7.0, 1.0, 0.0, 0.0, 0.0, 4.0, 10.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 8.0, 2.0, 0.0, 0.0, 0.0, 0.0, 15.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 4.0, 3.0, 1.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 14.0, 12.0, 4.0, 6.0, 12.0, 0.0, 0.0, 0.0, 10.0, 16.0, 5.0, 10.0, 15.0, 0.0, 0.0, 0.0, 2.0, 11.0, 16.0, 12.0, 8.0, 0.0},
+  {0.0, 2.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 16.0, 16.0, 14.0, 6.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 12.0, 7.0, 0.0},
+  {0.0, 0.0, 13.0, 10.0, 8.0, 8.0, 7.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 16.0, 15.0, 2.0, 0.0, 0.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 15.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 14.0, 6.0, 5.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 14.0, 13.0, 2.0, 0.0, 0.0, 10.0, 16.0, 13.0, 16.0, 16.0, 10.0, 0.0, 0.0, 8.0, 15.0, 14.0, 16.0, 10.0, 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 13.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 6.0, 11.0, 10.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 15.0, 13.0, 16.0, 7.0, 2.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 13.0, 1.0, 0.0, 0.0, 0.0},
+  {0.0, 3.0, 14.0, 14.0, 16.0, 16.0, 10.0, 0.0, 0.0, 9.0, 15.0, 9.0, 7.0, 1.0, 0.0, 0.0, 0.0, 10.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 7.0, 14.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 12.0, 9.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 3.0, 16.0, 9.0, 3.0, 15.0, 2.0, 0.0, 0.0, 4.0, 16.0, 1.0, 0.0, 16.0, 5.0, 0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 16.0, 5.0, 0.0, 0.0, 3.0, 14.0, 1.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 15.0, 12.0, 14.0, 14.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 12.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 14.0, 16.0, 0.0, 0.0, 0.0, 1.0, 16.0, 3.0, 14.0, 16.0, 4.0, 0.0, 0.0, 1.0, 14.0, 9.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 2.0, 8.0, 4.0, 11.0, 9.0, 0.0, 0.0, 0.0, 2.0, 2.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0, 14.0, 14.0, 4.0, 11.0, 9.0, 0.0, 0.0, 0.0, 4.0, 8.0, 11.0, 16.0, 9.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 15.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 15.0, 14.0, 8.0, 0.0, 0.0, 0.0, 1.0, 15.0, 7.0, 5.0, 14.0, 5.0, 0.0, 0.0, 0.0, 15.0, 8.0, 0.0, 10.0, 7.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 12.0, 8.0, 0.0, 0.0, 5.0, 16.0, 2.0, 0.0, 12.0, 8.0, 0.0, 0.0, 4.0, 16.0, 3.0, 1.0, 16.0, 4.0, 0.0, 0.0, 5.0, 16.0, 10.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 8.0, 15.0, 15.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 10.0, 8.0, 0.0, 0.0, 0.0, 13.0, 16.0, 8.0, 1.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 3.0, 8.0, 9.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 5.0, 12.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 12.0, 15.0, 5.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 13.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 14.0, 8.0, 1.0, 0.0, 0.0, 4.0, 16.0, 16.0, 6.0, 16.0, 9.0, 0.0, 0.0, 0.0, 8.0, 16.0, 11.0, 16.0, 10.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 13.0, 1.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 16.0, 13.0, 13.0, 10.0, 0.0, 0.0, 12.0, 13.0, 10.0, 15.0, 14.0, 2.0, 0.0, 2.0, 16.0, 6.0, 2.0, 14.0, 6.0, 0.0, 0.0, 1.0, 5.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 16.0, 14.0, 6.0, 0.0, 0.0, 0.0, 8.0, 15.0, 15.0, 11.0, 2.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 10.0, 7.0, 0.0, 0.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 16.0, 3.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 13.0, 13.0, 8.0, 16.0, 5.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 16.0, 1.0, 0.0},
+  {0.0, 1.0, 9.0, 15.0, 16.0, 9.0, 0.0, 0.0, 0.0, 6.0, 12.0, 1.0, 2.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 8.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 2.0, 0.0, 0.0, 2.0, 7.0, 4.0, 4.0, 14.0, 3.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 1.0, 16.0, 10.0, 8.0, 0.0, 0.0, 0.0, 15.0, 6.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 9.0, 11.0, 2.0, 0.0, 0.0, 0.0, 0.0, 12.0, 1.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 14.0, 3.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 14.0, 16.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 7.0, 10.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 0.0, 0.0, 0.0, 5.0, 9.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 10.0, 1.0, 0.0},
+  {0.0, 3.0, 15.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 2.0, 12.0, 13.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 11.0, 8.0, 11.0, 3.0, 0.0, 0.0, 3.0, 16.0, 16.0, 16.0, 12.0, 3.0, 0.0},
+  {0.0, 0.0, 1.0, 15.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 8.0, 12.0, 0.0, 0.0, 0.0, 1.0, 15.0, 1.0, 6.0, 16.0, 2.0, 0.0, 0.0, 2.0, 12.0, 0.0, 1.0, 11.0, 6.0, 0.0, 0.0, 5.0, 10.0, 0.0, 0.0, 11.0, 4.0, 0.0, 0.0, 2.0, 13.0, 0.0, 0.0, 10.0, 3.0, 0.0, 0.0, 0.0, 13.0, 2.0, 3.0, 13.0, 3.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 15.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 12.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 6.0, 1.0, 2.0, 0.0, 0.0, 4.0, 16.0, 9.0, 1.0, 15.0, 9.0, 0.0, 0.0, 13.0, 15.0, 6.0, 10.0, 16.0, 6.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 16.0, 1.0, 0.0, 0.0, 1.0, 7.0, 4.0, 14.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 2.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 6.0, 0.0, 5.0, 11.0, 0.0, 0.0, 3.0, 15.0, 0.0, 0.0, 10.0, 9.0, 0.0, 0.0, 9.0, 13.0, 4.0, 7.0, 16.0, 3.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 3.0, 2.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 10.0, 16.0, 8.0, 0.0, 0.0, 1.0, 8.0, 15.0, 16.0, 16.0, 9.0, 0.0, 0.0, 10.0, 16.0, 13.0, 11.0, 16.0, 8.0, 0.0, 0.0, 1.0, 4.0, 0.0, 10.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 7.0, 0.0},
+  {0.0, 0.0, 5.0, 11.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 16.0, 12.0, 4.0, 3.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 3.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 8.0, 15.0, 1.0, 0.0, 0.0, 0.0, 6.0, 16.0, 13.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 7.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 8.0, 13.0, 15.0, 6.0, 0.0, 0.0, 0.0, 3.0, 16.0, 3.0, 12.0, 7.0, 1.0, 0.0, 0.0, 4.0, 14.0, 9.0, 15.0, 16.0, 8.0, 0.0, 0.0, 4.0, 12.0, 12.0, 16.0, 10.0, 2.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 15.0, 11.0, 1.0, 0.0, 0.0, 2.0, 13.0, 14.0, 1.0, 12.0, 9.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 15.0, 3.0, 0.0},
+  {0.0, 0.0, 3.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 15.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 11.0, 0.0, 0.0, 0.0, 7.0, 12.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 8.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 4.0, 16.0, 7.0, 8.0, 16.0, 4.0, 0.0, 0.0, 1.0, 4.0, 0.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 13.0, 15.0, 8.0, 0.0, 0.0, 0.0, 12.0, 16.0, 7.0, 13.0, 15.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 15.0, 9.0, 0.0},
+  {0.0, 0.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 5.0, 12.0, 16.0, 11.0, 8.0, 3.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 16.0, 9.0},
+  {0.0, 0.0, 6.0, 15.0, 16.0, 3.0, 0.0, 0.0, 0.0, 3.0, 16.0, 12.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 4.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 6.0, 2.0, 0.0, 0.0, 0.0, 4.0, 14.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 10.0, 13.0, 12.0, 3.0, 0.0, 0.0, 0.0, 11.0, 13.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 12.0, 9.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0, 6.0, 10.0, 13.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 8.0, 1.0, 0.0, 0.0, 15.0, 2.0, 0.0, 0.0, 4.0, 14.0, 9.0, 4.0, 16.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 16.0, 14.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 14.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 15.0, 13.0, 3.0, 13.0, 8.0, 0.0, 0.0, 6.0, 15.0, 2.0, 0.0, 8.0, 8.0, 0.0, 0.0, 6.0, 16.0, 0.0, 0.0, 6.0, 11.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 5.0, 15.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0, 4.0, 16.0, 9.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 13.0, 14.0, 0.0, 0.0, 0.0, 1.0, 15.0, 5.0, 5.0, 15.0, 0.0, 0.0, 0.0, 7.0, 12.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 1.0, 2.0, 11.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 15.0, 16.0, 9.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 11.0, 9.0, 10.0, 16.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 0.0, 0.0, 0.0, 6.0, 3.0, 0.0, 14.0, 6.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 15.0, 3.0, 0.0},
+  {0.0, 0.0, 7.0, 11.0, 12.0, 14.0, 2.0, 0.0, 0.0, 8.0, 16.0, 9.0, 4.0, 3.0, 0.0, 0.0, 0.0, 10.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 12.0, 16.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 2.0, 4.0, 8.0, 15.0, 9.0, 0.0, 0.0, 0.0, 10.0, 16.0, 13.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 0.0, 0.0, 9.0, 5.0, 0.0, 0.0, 14.0, 10.0, 0.0, 7.0, 16.0, 4.0, 0.0, 5.0, 16.0, 7.0, 5.0, 16.0, 6.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 3.0, 4.0, 11.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 16.0, 15.0, 8.0, 5.0, 0.0, 0.0, 4.0, 15.0, 16.0, 16.0, 16.0, 16.0},
+  {0.0, 1.0, 11.0, 15.0, 16.0, 9.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 10.0, 16.0, 1.0, 0.0, 0.0, 0.0, 2.0, 1.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 0.0, 0.0, 6.0, 8.0, 13.0, 15.0, 5.0, 0.0, 0.0, 0.0, 15.0, 16.0, 12.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 13.0, 11.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 11.0, 2.0, 0.0, 0.0, 0.0, 5.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 16.0, 9.0, 12.0, 11.0, 0.0, 0.0, 0.0, 2.0, 16.0, 6.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 13.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 10.0, 10.0, 5.0, 0.0, 0.0, 0.0, 5.0, 16.0, 15.0, 12.0, 14.0, 6.0, 0.0, 0.0, 4.0, 16.0, 3.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 14.0, 9.0, 4.0, 11.0, 13.0, 0.0, 0.0, 0.0, 3.0, 14.0, 16.0, 12.0, 3.0, 0.0},
+  {0.0, 0.0, 0.0, 7.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 9.0, 0.0, 0.0, 10.0, 3.0, 0.0, 7.0, 15.0, 0.0, 0.0, 9.0, 15.0, 0.0, 0.0, 12.0, 15.0, 8.0, 10.0, 15.0, 10.0, 0.0, 0.0, 8.0, 15.0, 12.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 12.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 6.0, 4.0, 10.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 5.0, 9.0, 16.0, 16.0, 12.0, 0.0, 0.0, 3.0, 16.0, 16.0, 11.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 12.0, 10.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 7.0, 12.0, 10.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 8.0, 11.0, 14.0, 14.0, 0.0, 0.0, 1.0, 16.0, 16.0, 13.0, 12.0, 7.0, 0.0, 0.0, 0.0, 16.0, 7.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 1.0, 5.0, 6.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 6.0, 0.0, 12.0, 9.0, 0.0, 0.0, 0.0, 0.0, 12.0, 10.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 10.0, 14.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 16.0, 16.0, 5.0, 0.0, 0.0, 4.0, 15.0, 13.0, 10.0, 16.0, 6.0, 0.0, 0.0, 1.0, 8.0, 1.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 1.0, 6.0, 11.0, 16.0, 10.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 13.0, 3.0, 0.0, 0.0, 0.0, 10.0, 7.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 2.0, 0.0, 4.0, 0.0, 0.0, 2.0, 16.0, 6.0, 0.0, 7.0, 16.0, 2.0, 0.0, 8.0, 16.0, 6.0, 6.0, 16.0, 12.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 1.0, 4.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 16.0, 13.0, 1.0, 0.0, 0.0, 3.0, 15.0, 13.0, 10.0, 16.0, 2.0, 0.0, 0.0, 4.0, 10.0, 0.0, 4.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 11.0, 14.0, 2.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 9.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 6.0, 0.0, 0.0, 0.0, 3.0, 15.0, 7.0, 6.0, 16.0, 1.0, 0.0, 0.0, 13.0, 9.0, 1.0, 13.0, 7.0, 0.0, 0.0, 6.0, 15.0, 2.0, 6.0, 15.0, 0.0, 0.0, 0.0, 14.0, 10.0, 0.0, 14.0, 12.0, 3.0, 0.0, 0.0, 14.0, 16.0, 16.0, 16.0, 14.0, 3.0, 0.0, 0.0, 5.0, 11.0, 14.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 14.0, 16.0, 0.0, 0.0, 0.0, 0.0, 5.0, 10.0, 11.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 7.0, 0.0, 0.0, 4.0, 6.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0, 5.0, 15.0, 9.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 9.0, 15.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 15.0, 13.0, 1.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 13.0, 7.0, 0.0, 0.0, 0.0, 2.0, 11.0, 0.0, 12.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 7.0, 13.0, 3.0, 0.0, 0.0, 0.0, 10.0, 16.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 14.0, 8.0, 8.0, 3.0, 0.0, 0.0, 0.0, 10.0, 15.0, 13.0, 9.0, 4.0, 0.0},
+  {0.0, 0.0, 1.0, 8.0, 10.0, 8.0, 3.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 8.0, 8.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 11.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 6.0, 16.0, 9.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 14.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 10.0, 1.0, 2.0, 0.0, 0.0, 0.0, 5.0, 15.0, 2.0, 15.0, 9.0, 1.0, 0.0, 0.0, 11.0, 13.0, 6.0, 16.0, 16.0, 9.0, 0.0, 0.0, 13.0, 16.0, 16.0, 16.0, 10.0, 2.0, 0.0, 0.0, 2.0, 7.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 11.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 10.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 1.0, 3.0, 8.0, 2.0, 0.0, 0.0, 4.0, 12.0, 15.0, 15.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 8.0, 2.0, 0.0, 0.0, 0.0, 0.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 15.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 4.0, 10.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 8.0, 15.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 9.0, 7.0, 0.0, 0.0, 4.0, 13.0, 5.0, 3.0, 10.0, 8.0, 0.0, 0.0, 0.0, 7.0, 14.0, 16.0, 15.0, 2.0, 0.0},
+  {0.0, 1.0, 13.0, 16.0, 16.0, 11.0, 1.0, 0.0, 0.0, 8.0, 16.0, 16.0, 13.0, 11.0, 1.0, 0.0, 0.0, 11.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 6.0, 9.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 15.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 10.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 0.0, 2.0, 0.0, 0.0, 0.0, 4.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 14.0, 16.0, 14.0, 2.0, 0.0, 0.0, 6.0, 16.0, 12.0, 5.0, 16.0, 5.0, 0.0, 0.0, 1.0, 12.0, 1.0, 0.0, 14.0, 7.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 13.0, 1.0, 0.0, 0.0, 0.0, 1.0, 13.0, 10.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 14.0, 15.0, 7.0, 0.0, 0.0, 0.0, 3.0, 15.0, 6.0, 2.0, 14.0, 3.0, 0.0, 0.0, 4.0, 13.0, 0.0, 1.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 11.0, 9.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 8.0, 10.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 1.0, 12.0, 5.0, 0.0, 10.0, 11.0, 0.0, 0.0, 0.0, 7.0, 13.0, 16.0, 16.0, 4.0, 0.0},
+  {0.0, 0.0, 0.0, 8.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 14.0, 1.0, 6.0, 0.0, 0.0, 0.0, 7.0, 16.0, 5.0, 3.0, 16.0, 8.0, 0.0, 0.0, 8.0, 16.0, 8.0, 14.0, 16.0, 2.0, 0.0, 0.0, 0.0, 6.0, 14.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 16.0, 15.0, 11.0, 8.0, 0.0, 0.0, 0.0, 1.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 10.0, 6.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 7.0, 15.0, 0.0, 0.0, 0.0, 0.0, 11.0, 5.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 1.0, 9.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 8.0, 16.0, 12.0, 8.0, 8.0, 3.0, 0.0, 0.0, 6.0, 16.0, 9.0, 3.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 6.0, 4.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 13.0, 0.0, 0.0, 0.0, 0.0, 5.0, 8.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 11.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 14.0, 10.0, 3.0, 0.0, 0.0, 0.0, 0.0, 10.0, 14.0, 13.0, 15.0, 1.0, 0.0, 0.0, 0.0, 12.0, 4.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 6.0, 15.0, 15.0, 16.0, 8.0, 0.0, 0.0, 0.0, 1.0, 8.0, 8.0, 14.0, 8.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 16.0, 10.0, 8.0, 12.0, 12.0, 0.0, 0.0, 0.0, 7.0, 12.0, 14.0, 14.0, 6.0, 0.0},
+  {0.0, 1.0, 13.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 8.0, 15.0, 8.0, 15.0, 15.0, 0.0, 0.0, 0.0, 3.0, 8.0, 5.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 0.0, 8.0, 6.0, 6.0, 13.0, 12.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 14.0, 3.0, 0.0},
+  {0.0, 0.0, 5.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 13.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 6.0, 16.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 7.0, 8.0, 14.0, 7.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 1.0, 15.0, 11.0, 8.0, 13.0, 11.0, 0.0, 0.0, 0.0, 5.0, 11.0, 12.0, 14.0, 3.0, 0.0},
+  {0.0, 0.0, 3.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 6.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 1.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 3.0, 0.0, 0.0, 5.0, 8.0, 2.0, 13.0, 16.0, 3.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 1.0, 15.0, 11.0, 8.0, 12.0, 16.0, 1.0, 0.0, 0.0, 3.0, 14.0, 16.0, 16.0, 9.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 12.0, 12.0, 0.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 16.0, 14.0, 8.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 10.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 15.0, 6.0, 10.0, 11.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 14.0, 8.0, 1.0},
+  {0.0, 0.0, 3.0, 13.0, 11.0, 7.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 2.0, 0.0, 0.0, 4.0, 16.0, 9.0, 1.0, 14.0, 2.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 16.0, 2.0, 0.0, 0.0, 0.0, 16.0, 1.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 13.0, 6.0, 0.0, 0.0, 0.0, 9.0, 14.0, 9.0, 14.0, 1.0, 0.0, 0.0, 0.0, 2.0, 12.0, 13.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 15.0, 14.0, 6.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 10.0, 16.0, 4.0, 0.0, 0.0, 6.0, 15.0, 2.0, 10.0, 14.0, 1.0, 0.0, 0.0, 1.0, 13.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 15.0, 2.0, 3.0, 15.0, 6.0, 0.0, 0.0, 0.0, 15.0, 3.0, 8.0, 15.0, 6.0, 0.0, 0.0, 0.0, 6.0, 16.0, 11.0, 4.0, 0.0, 0.0},
+  {0.0, 3.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 12.0, 13.0, 11.0, 16.0, 0.0, 0.0, 0.0, 0.0, 12.0, 5.0, 4.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 16.0, 14.0, 8.0, 5.0, 0.0, 0.0, 2.0, 13.0, 16.0, 16.0, 16.0, 16.0, 2.0},
+  {0.0, 0.0, 11.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 3.0, 2.0, 14.0, 3.0, 0.0, 0.0, 9.0, 15.0, 0.0, 12.0, 15.0, 0.0, 0.0, 0.0, 6.0, 16.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 12.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 1.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 4.0, 4.0, 0.0, 12.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 12.0, 0.0, 0.0, 0.0, 9.0, 7.0, 4.0, 10.0, 11.0, 0.0, 0.0, 0.0, 9.0, 14.0, 16.0, 14.0, 5.0, 0.0},
+  {0.0, 0.0, 2.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 3.0, 6.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 13.0, 10.0, 3.0, 0.0, 0.0, 0.0, 4.0, 11.0, 15.0, 16.0, 10.0, 0.0},
+  {0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 7.0, 1.0, 0.0, 0.0, 10.0, 13.0, 1.0, 6.0, 16.0, 5.0, 0.0, 6.0, 16.0, 11.0, 8.0, 14.0, 15.0, 0.0, 0.0, 13.0, 16.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 2.0, 2.0, 0.0, 11.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 6.0, 7.0, 2.0, 0.0, 0.0, 4.0, 12.0, 13.0, 15.0, 14.0, 12.0, 0.0, 0.0, 0.0, 13.0, 12.0, 2.0, 11.0, 14.0, 0.0, 0.0, 0.0, 3.0, 13.0, 16.0, 13.0, 1.0, 0.0},
+  {0.0, 0.0, 7.0, 15.0, 15.0, 6.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 11.0, 15.0, 0.0, 0.0, 0.0, 7.0, 16.0, 10.0, 10.0, 16.0, 1.0, 0.0, 0.0, 3.0, 11.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 14.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 3.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 15.0, 2.0, 0.0, 0.0},
+  {0.0, 2.0, 10.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 10.0, 15.0, 9.0, 16.0, 4.0, 0.0, 0.0, 0.0, 5.0, 3.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 10.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 5.0, 1.0, 0.0, 13.0, 10.0, 0.0, 0.0, 0.0, 16.0, 13.0, 10.0, 15.0, 11.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 13.0, 3.0, 0.0},
+  {0.0, 0.0, 2.0, 10.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 13.0, 13.0, 10.0, 16.0, 8.0, 0.0, 0.0, 4.0, 14.0, 1.0, 8.0, 14.0, 1.0, 0.0, 0.0, 4.0, 15.0, 12.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 6.0, 7.0, 14.0, 5.0, 0.0, 0.0, 0.0, 1.0, 2.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 8.0, 15.0, 6.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 5.0, 11.0, 16.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 16.0, 11.0, 0.0, 0.0, 0.0, 2.0, 12.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 6.0, 11.0, 5.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 14.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 15.0, 10.0, 10.0, 13.0, 0.0, 0.0, 0.0, 5.0, 15.0, 0.0, 2.0, 15.0, 6.0, 0.0, 0.0, 4.0, 13.0, 0.0, 0.0, 14.0, 8.0, 0.0, 0.0, 6.0, 9.0, 0.0, 0.0, 12.0, 7.0, 0.0, 0.0, 3.0, 14.0, 1.0, 0.0, 12.0, 5.0, 0.0, 0.0, 0.0, 12.0, 9.0, 6.0, 15.0, 2.0, 0.0, 0.0, 0.0, 3.0, 14.0, 14.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 12.0, 16.0, 6.0, 0.0, 0.0, 0.0, 4.0, 16.0, 10.0, 5.0, 16.0, 4.0, 0.0, 0.0, 8.0, 13.0, 0.0, 5.0, 15.0, 5.0, 0.0, 0.0, 6.0, 12.0, 7.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 11.0, 10.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 0.0, 13.0, 3.0, 0.0, 0.0, 0.0, 6.0, 13.0, 13.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 16.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 12.0, 14.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 9.0, 15.0, 12.0, 5.0, 0.0, 0.0, 0.0, 12.0, 11.0, 11.0, 12.0, 11.0, 0.0, 0.0, 1.0, 16.0, 1.0, 0.0, 8.0, 11.0, 0.0, 0.0, 3.0, 15.0, 12.0, 10.0, 15.0, 2.0, 0.0, 0.0, 0.0, 1.0, 11.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 8.0, 6.0, 8.0, 4.0, 0.0, 0.0, 0.0, 12.0, 13.0, 12.0, 12.0, 5.0, 0.0, 0.0, 0.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 12.0, 9.0, 2.0, 0.0, 0.0, 0.0, 3.0, 8.0, 7.0, 8.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 8.0, 0.0, 0.0, 0.0, 6.0, 0.0, 1.0, 13.0, 4.0, 0.0, 0.0, 0.0, 7.0, 15.0, 15.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 0.0, 4.0, 2.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 16.0, 5.0, 0.0, 0.0, 4.0, 16.0, 6.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 14.0, 8.0, 5.0, 13.0, 9.0, 0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 12.0, 1.0, 0.0},
+  {0.0, 0.0, 6.0, 14.0, 13.0, 4.0, 0.0, 0.0, 0.0, 4.0, 16.0, 11.0, 10.0, 15.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 7.0, 11.0, 8.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 12.0, 9.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 15.0, 1.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 11.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 4.0, 8.0, 15.0, 15.0, 4.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 13.0, 3.0, 0.0, 0.0, 0.0, 1.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 7.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 11.0, 14.0, 5.0, 0.0, 0.0, 0.0, 1.0, 16.0, 14.0, 6.0, 13.0, 1.0, 0.0, 0.0, 9.0, 14.0, 2.0, 0.0, 16.0, 4.0, 0.0, 0.0, 5.0, 13.0, 0.0, 6.0, 16.0, 1.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 3.0, 13.0, 4.0, 0.0, 0.0, 0.0, 3.0, 15.0, 7.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 5.0, 3.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 15.0, 1.0, 0.0, 0.0, 2.0, 7.0, 0.0, 4.0, 16.0, 8.0, 0.0, 0.0, 5.0, 13.0, 0.0, 0.0, 14.0, 9.0, 0.0, 0.0, 0.0, 14.0, 11.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0, 3.0, 12.0, 13.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 4.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 0.0, 2.0, 8.0, 0.0, 0.0, 1.0, 15.0, 5.0, 0.0, 10.0, 11.0, 0.0, 0.0, 6.0, 14.0, 1.0, 6.0, 16.0, 5.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 14.0, 2.0, 0.0, 0.0, 3.0, 12.0, 13.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 12.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 13.0, 11.0, 3.0, 16.0, 5.0, 0.0, 0.0, 4.0, 14.0, 0.0, 0.0, 15.0, 6.0, 0.0, 0.0, 6.0, 12.0, 8.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 9.0, 12.0, 4.0, 10.0, 8.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 11.0, 5.0, 0.0, 0.0, 0.0, 16.0, 14.0, 5.0, 15.0, 4.0, 0.0, 0.0, 0.0, 3.0, 12.0, 16.0, 11.0, 1.0, 0.0},
+  {0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 6.0, 4.0, 12.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 4.0, 6.0, 11.0, 16.0, 1.0, 0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 2.0, 10.0, 11.0, 0.0, 1.0, 0.0, 0.0, 0.0, 2.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 11.0, 1.0, 0.0, 0.0, 0.0, 2.0, 14.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 8.0, 15.0, 2.0, 3.0, 13.0, 0.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 12.0, 7.0, 0.0, 0.0, 7.0, 16.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 3.0, 16.0, 6.0, 1.0, 14.0, 9.0, 0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 4.0, 13.0, 14.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 13.0, 16.0, 12.0, 7.0, 0.0, 0.0, 0.0, 4.0, 16.0, 15.0, 12.0, 12.0, 3.0, 0.0, 0.0, 4.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 1.0, 9.0, 14.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 15.0, 16.0, 16.0, 6.0, 0.0, 0.0, 2.0, 16.0, 11.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 6.0, 15.0, 5.0, 0.0, 0.0, 0.0, 3.0, 1.0, 0.0, 11.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 4.0, 2.0, 0.0, 0.0, 0.0, 8.0, 16.0, 11.0, 9.0, 15.0, 5.0, 0.0, 0.0, 5.0, 14.0, 1.0, 0.0, 10.0, 9.0, 0.0, 0.0, 0.0, 11.0, 12.0, 5.0, 13.0, 5.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 5.0, 15.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 14.0, 16.0, 13.0, 1.0, 0.0, 0.0, 10.0, 9.0, 4.0, 6.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 10.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 4.0, 0.0, 0.0, 0.0, 14.0, 16.0, 13.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 12.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 8.0, 15.0, 3.0, 0.0, 0.0, 6.0, 16.0, 6.0, 0.0, 13.0, 8.0, 0.0, 0.0, 8.0, 16.0, 4.0, 0.0, 15.0, 8.0, 0.0, 0.0, 5.0, 16.0, 8.0, 12.0, 16.0, 6.0, 0.0, 0.0, 0.0, 15.0, 16.0, 16.0, 15.0, 2.0, 0.0, 0.0, 0.0, 3.0, 13.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 10.0, 8.0, 12.0, 1.0, 0.0, 0.0, 0.0, 16.0, 13.0, 12.0, 10.0, 0.0, 0.0, 0.0, 5.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 4.0, 4.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 8.0, 0.0, 0.0, 0.0, 9.0, 4.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 14.0, 16.0, 14.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 14.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 9.0, 10.0, 0.0, 0.0, 0.0, 0.0, 15.0, 8.0, 2.0, 15.0, 3.0, 0.0, 0.0, 0.0, 11.0, 12.0, 9.0, 14.0, 2.0, 0.0, 0.0, 0.0, 7.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 15.0, 8.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 13.0, 14.0, 8.0, 1.0, 0.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 3.0, 5.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 11.0, 4.0, 4.0, 0.0, 0.0, 0.0, 1.0, 13.0, 14.0, 12.0, 12.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 16.0, 12.0, 8.0, 15.0, 0.0, 0.0, 0.0, 7.0, 16.0, 4.0, 0.0, 11.0, 5.0, 0.0, 0.0, 10.0, 15.0, 0.0, 0.0, 8.0, 9.0, 0.0, 0.0, 10.0, 14.0, 0.0, 0.0, 8.0, 11.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 11.0, 9.0, 0.0, 0.0, 1.0, 15.0, 7.0, 8.0, 16.0, 5.0, 0.0, 0.0, 0.0, 3.0, 14.0, 16.0, 10.0, 1.0, 0.0},
+  {0.0, 1.0, 11.0, 15.0, 13.0, 2.0, 0.0, 0.0, 0.0, 8.0, 13.0, 5.0, 14.0, 9.0, 0.0, 0.0, 0.0, 3.0, 15.0, 1.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 2.0, 8.0, 4.0, 5.0, 16.0, 7.0, 0.0, 0.0, 1.0, 15.0, 16.0, 15.0, 8.0, 1.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 14.0, 5.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 14.0, 14.0, 13.0, 11.0, 0.0, 0.0, 0.0, 5.0, 16.0, 1.0, 6.0, 15.0, 0.0, 0.0, 0.0, 7.0, 14.0, 9.0, 13.0, 15.0, 1.0, 0.0, 0.0, 1.0, 11.0, 16.0, 15.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 9.0, 4.0, 0.0, 0.0, 0.0, 0.0, 3.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.0, 8.0, 2.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 14.0, 2.0, 0.0, 0.0, 2.0, 16.0, 9.0, 3.0, 13.0, 7.0, 0.0, 0.0, 0.0, 11.0, 14.0, 7.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 10.0, 14.0, 10.0, 2.0, 0.0},
+  {0.0, 1.0, 13.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 3.0, 12.0, 6.0, 11.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 0.0, 0.0, 1.0, 9.0, 15.0, 16.0, 16.0, 9.0, 0.0, 0.0, 2.0, 12.0, 15.0, 14.0, 5.0, 5.0, 0.0, 0.0, 0.0, 5.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 3.0, 5.0, 14.0, 13.0, 6.0, 0.0, 0.0, 0.0, 9.0, 16.0, 12.0, 10.0, 12.0, 0.0, 0.0, 0.0, 6.0, 16.0, 3.0, 12.0, 11.0, 0.0, 0.0, 0.0, 1.0, 13.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 9.0, 6.0, 4.0, 0.0, 0.0, 0.0, 5.0, 16.0, 3.0, 13.0, 8.0, 1.0, 0.0, 0.0, 14.0, 16.0, 9.0, 16.0, 16.0, 9.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 11.0, 3.0, 0.0, 0.0, 0.0, 4.0, 12.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 7.0, 13.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 8.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 16.0, 0.0, 0.0, 0.0, 8.0, 16.0, 3.0, 16.0, 13.0, 0.0, 0.0, 0.0, 2.0, 3.0, 0.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 14.0, 15.0, 5.0, 0.0, 0.0, 0.0, 8.0, 16.0, 5.0, 3.0, 14.0, 0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 10.0, 5.0, 0.0, 0.0, 5.0, 9.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 0.0, 14.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 14.0, 13.0, 13.0, 16.0, 1.0, 0.0, 0.0, 0.0, 2.0, 14.0, 14.0, 7.0, 0.0, 0.0},
+  {0.0, 3.0, 12.0, 12.0, 14.0, 15.0, 3.0, 0.0, 0.0, 4.0, 15.0, 4.0, 4.0, 4.0, 0.0, 0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 15.0, 12.0, 15.0, 15.0, 5.0, 0.0, 0.0, 5.0, 12.0, 6.0, 0.0, 8.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 7.0, 0.0, 0.0, 1.0, 9.0, 0.0, 7.0, 14.0, 1.0, 0.0, 0.0, 2.0, 15.0, 16.0, 14.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 7.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 7.0, 0.0, 0.0, 0.0, 0.0, 5.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 4.0, 9.0, 13.0, 16.0, 11.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 3.0, 0.0},
+  {0.0, 2.0, 13.0, 16.0, 16.0, 16.0, 15.0, 2.0, 0.0, 8.0, 16.0, 12.0, 8.0, 4.0, 1.0, 0.0, 0.0, 5.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 2.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 7.0, 0.0},
+  {0.0, 0.0, 0.0, 4.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 12.0, 11.0, 10.0, 0.0, 0.0, 0.0, 4.0, 16.0, 15.0, 8.0, 11.0, 10.0, 0.0, 0.0, 1.0, 7.0, 15.0, 4.0, 3.0, 12.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 16.0, 8.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 13.0, 8.0, 1.0, 16.0, 3.0, 0.0, 0.0, 5.0, 15.0, 2.0, 5.0, 15.0, 0.0, 0.0, 5.0, 15.0, 16.0, 16.0, 16.0, 8.0, 0.0, 0.0, 14.0, 12.0, 12.0, 14.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 12.0, 12.0, 12.0, 9.0, 2.0, 0.0, 0.0, 9.0, 15.0, 12.0, 13.0, 16.0, 5.0, 0.0, 0.0, 12.0, 8.0, 0.0, 8.0, 10.0, 0.0, 0.0, 1.0, 16.0, 3.0, 3.0, 15.0, 2.0, 0.0, 0.0, 1.0, 3.0, 0.0, 12.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 3.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 14.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 12.0, 0.0, 0.0, 0.0},
+  {0.0, 5.0, 16.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 15.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 11.0, 8.0, 8.0, 3.0, 0.0, 0.0, 6.0, 16.0, 16.0, 16.0, 16.0, 7.0, 0.0},
+  {0.0, 0.0, 4.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 12.0, 8.0, 3.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 8.0, 12.0, 9.0, 0.0, 0.0, 0.0, 16.0, 13.0, 4.0, 12.0, 12.0, 0.0, 0.0, 0.0, 6.0, 15.0, 16.0, 12.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 6.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 14.0, 0.0, 7.0, 1.0, 0.0, 0.0, 6.0, 16.0, 3.0, 3.0, 16.0, 9.0, 0.0, 0.0, 11.0, 16.0, 8.0, 11.0, 16.0, 6.0, 0.0, 0.0, 3.0, 15.0, 16.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 4.0, 11.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 12.0, 13.0, 5.0, 14.0, 16.0, 8.0, 0.0, 0.0, 3.0, 12.0, 14.0, 16.0, 11.0, 3.0, 0.0, 0.0, 0.0, 0.0, 10.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 9.0, 1.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 16.0, 10.0, 8.0, 16.0, 6.0, 0.0, 0.0, 0.0, 12.0, 14.0, 5.0, 9.0, 13.0, 0.0, 0.0, 0.0, 4.0, 15.0, 15.0, 12.0, 3.0, 0.0},
+  {0.0, 1.0, 10.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 5.0, 10.0, 8.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 2.0, 4.0, 9.0, 16.0, 4.0, 0.0, 0.0, 1.0, 15.0, 14.0, 11.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 16.0, 10.0, 0.0, 0.0, 0.0, 1.0, 13.0, 15.0, 8.0, 16.0, 3.0, 0.0, 0.0, 8.0, 15.0, 3.0, 4.0, 15.0, 0.0, 0.0, 0.0, 1.0, 3.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 0.0, 4.0, 0.0, 0.0, 0.0, 1.0, 16.0, 8.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 11.0, 0.0, 0.0},
+  {0.0, 4.0, 13.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 8.0, 12.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 11.0, 9.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 7.0, 15.0, 13.0, 2.0, 0.0, 0.0, 0.0, 3.0, 4.0, 7.0, 16.0, 10.0, 0.0, 0.0, 2.0, 11.0, 15.0, 11.0, 8.0, 2.0, 0.0},
+  {0.0, 0.0, 11.0, 16.0, 15.0, 5.0, 0.0, 0.0, 0.0, 8.0, 16.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 11.0, 10.0, 0.0, 16.0, 8.0, 0.0, 0.0, 0.0, 3.0, 1.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 14.0, 12.0, 12.0, 8.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 14.0, 8.0, 0.0},
+  {0.0, 0.0, 1.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 11.0, 3.0, 0.0, 0.0, 0.0, 0.0, 16.0, 2.0, 2.0, 0.0, 0.0, 0.0, 0.0, 3.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 0.0, 6.0, 10.0, 3.0, 0.0, 0.0, 3.0, 15.0, 13.0, 12.0, 10.0, 12.0, 0.0, 0.0, 0.0, 10.0, 16.0, 4.0, 5.0, 14.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 14.0, 9.0, 0.0},
+  {0.0, 1.0, 13.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 10.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 11.0, 11.0, 0.0, 0.0, 0.0, 0.0, 1.0, 5.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 13.0, 1.0, 0.0, 0.0},
+  {0.0, 2.0, 11.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 9.0, 16.0, 9.0, 16.0, 4.0, 0.0, 0.0, 0.0, 14.0, 7.0, 4.0, 16.0, 1.0, 0.0, 0.0, 0.0, 6.0, 5.0, 9.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 11.0, 8.0, 12.0, 9.0, 0.0, 0.0, 2.0, 15.0, 16.0, 16.0, 13.0, 16.0, 1.0},
+  {0.0, 0.0, 6.0, 12.0, 13.0, 5.0, 0.0, 0.0, 0.0, 2.0, 16.0, 9.0, 8.0, 15.0, 2.0, 0.0, 0.0, 8.0, 12.0, 0.0, 3.0, 15.0, 8.0, 0.0, 0.0, 4.0, 15.0, 12.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 2.0, 2.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 14.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 1.0, 7.0, 0.0, 0.0, 0.0, 2.0, 16.0, 4.0, 9.0, 13.0, 0.0, 0.0, 0.0, 8.0, 11.0, 6.0, 16.0, 1.0, 2.0, 0.0, 0.0, 12.0, 10.0, 12.0, 14.0, 12.0, 11.0, 0.0, 0.0, 11.0, 16.0, 16.0, 14.0, 7.0, 1.0, 0.0, 0.0, 1.0, 7.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 1.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 16.0, 16.0, 16.0, 16.0, 10.0, 0.0, 0.0, 6.0, 10.0, 8.0, 14.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 0.0, 0.0, 2.0, 10.0, 14.0, 15.0, 6.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 13.0, 1.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 15.0, 12.0, 8.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 10.0, 13.0, 3.0, 0.0, 0.0, 5.0, 16.0, 9.0, 0.0, 8.0, 4.0, 0.0, 0.0, 4.0, 13.0, 1.0, 0.0, 4.0, 8.0, 0.0, 0.0, 4.0, 8.0, 0.0, 0.0, 8.0, 4.0, 0.0, 0.0, 1.0, 14.0, 0.0, 0.0, 11.0, 3.0, 0.0, 0.0, 0.0, 12.0, 9.0, 9.0, 15.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 15.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 16.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 14.0, 15.0, 0.0, 0.0, 0.0, 0.0, 15.0, 10.0, 0.0, 16.0, 7.0, 0.0, 0.0, 4.0, 16.0, 1.0, 0.0, 12.0, 5.0, 0.0, 0.0, 4.0, 15.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 5.0, 16.0, 6.0, 0.0, 16.0, 0.0, 0.0, 0.0, 0.0, 14.0, 13.0, 8.0, 15.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 14.0, 0.0, 3.0, 0.0, 0.0, 0.0, 1.0, 16.0, 4.0, 10.0, 12.0, 0.0, 0.0, 0.0, 7.0, 14.0, 2.0, 15.0, 5.0, 0.0, 0.0, 0.0, 13.0, 14.0, 11.0, 16.0, 16.0, 9.0, 0.0, 0.0, 8.0, 16.0, 16.0, 14.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 5.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 12.0, 12.0, 14.0, 3.0, 0.0, 0.0, 0.0, 11.0, 11.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 3.0, 0.0, 0.0, 16.0, 4.0, 0.0, 0.0, 1.0, 16.0, 9.0, 9.0, 15.0, 2.0, 0.0, 0.0, 1.0, 11.0, 14.0, 15.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 16.0, 16.0, 12.0, 4.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 12.0, 5.0},
+  {0.0, 2.0, 15.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 15.0, 14.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 8.0, 6.0, 1.0, 0.0, 0.0, 2.0, 15.0, 16.0, 16.0, 16.0, 7.0, 0.0},
+  {0.0, 1.0, 12.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 7.0, 13.0, 7.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 8.0, 14.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 16.0, 16.0, 11.0, 0.0, 0.0, 3.0, 15.0, 12.0, 15.0, 4.0, 2.0, 0.0, 0.0, 0.0, 1.0, 12.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 13.0, 16.0, 8.0, 0.0, 0.0, 0.0, 8.0, 15.0, 6.0, 7.0, 14.0, 0.0, 0.0, 2.0, 16.0, 1.0, 1.0, 11.0, 10.0, 0.0, 0.0, 4.0, 16.0, 15.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 4.0, 4.0, 5.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 14.0, 9.0, 5.0, 2.0, 0.0, 0.0, 7.0, 15.0, 6.0, 2.0, 12.0, 8.0, 0.0, 0.0, 5.0, 15.0, 2.0, 8.0, 15.0, 1.0, 0.0, 0.0, 1.0, 12.0, 14.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 10.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 9.0, 2.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 11.0, 3.0, 0.0, 0.0},
+  {0.0, 5.0, 16.0, 16.0, 16.0, 11.0, 1.0, 0.0, 0.0, 4.0, 16.0, 15.0, 10.0, 8.0, 1.0, 0.0, 0.0, 4.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 4.0, 13.0, 16.0, 2.0, 0.0, 0.0, 0.0, 2.0, 15.0, 16.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 13.0, 10.0, 1.0, 0.0, 0.0, 0.0, 0.0, 12.0, 6.0, 7.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 0.0, 2.0, 4.0, 4.0, 14.0, 11.0, 0.0, 0.0, 0.0, 2.0, 11.0, 15.0, 16.0, 5.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 15.0, 8.0, 2.0, 0.0, 0.0, 9.0, 16.0, 12.0, 8.0, 9.0, 3.0, 0.0, 0.0, 13.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 7.0, 13.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 6.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 3.0, 9.0, 16.0, 16.0, 2.0, 0.0, 0.0, 4.0, 16.0, 13.0, 11.0, 16.0, 1.0, 0.0, 0.0, 3.0, 5.0, 0.0, 6.0, 13.0, 0.0, 0.0, 0.0, 0.0, 2.0, 7.0, 14.0, 9.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 9.0, 8.0, 11.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 5.0, 16.0, 1.0, 0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 8.0, 9.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 5.0, 12.0, 0.0, 1.0, 15.0, 3.0, 0.0, 0.0, 4.0, 13.0, 4.0, 12.0, 13.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 13.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 4.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 10.0, 1.0, 0.0, 0.0, 12.0, 12.0, 1.0, 7.0, 15.0, 1.0, 0.0, 5.0, 16.0, 3.0, 0.0, 14.0, 10.0, 0.0, 2.0, 16.0, 13.0, 8.0, 8.0, 16.0, 3.0, 0.0, 8.0, 16.0, 16.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 2.0, 16.0, 14.0, 2.0, 0.0, 0.0, 0.0, 1.0, 12.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 4.0, 16.0, 12.0, 12.0, 12.0, 0.0, 0.0, 0.0, 1.0, 15.0, 11.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 14.0, 14.0, 8.0, 0.0, 0.0, 0.0, 0.0, 10.0, 12.0, 6.0, 15.0, 0.0, 0.0, 0.0, 0.0, 2.0, 13.0, 16.0, 12.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 2.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 3.0, 9.0, 12.0, 0.0, 0.0, 1.0, 14.0, 8.0, 0.0, 15.0, 13.0, 0.0, 0.0, 11.0, 16.0, 10.0, 8.0, 16.0, 10.0, 0.0, 3.0, 16.0, 16.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 8.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 7.0, 11.0, 9.0, 9.0, 0.0, 0.0, 0.0, 4.0, 12.0, 12.0, 16.0, 7.0, 0.0, 0.0, 0.0, 2.0, 10.0, 12.0, 9.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 2.0, 0.0, 0.0, 6.0, 12.0, 12.0, 13.0, 11.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 11.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 15.0, 7.0, 0.0, 0.0, 0.0, 5.0, 16.0, 3.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 13.0, 9.0, 16.0, 14.0, 8.0, 0.0, 0.0, 3.0, 15.0, 16.0, 16.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 10.0, 12.0, 7.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 5.0, 12.0, 5.0, 0.0, 0.0, 4.0, 13.0, 4.0, 0.0, 2.0, 8.0, 0.0, 0.0, 8.0, 4.0, 0.0, 0.0, 3.0, 8.0, 0.0, 0.0, 8.0, 4.0, 0.0, 0.0, 7.0, 5.0, 0.0, 0.0, 6.0, 6.0, 0.0, 0.0, 11.0, 2.0, 0.0, 0.0, 1.0, 13.0, 3.0, 3.0, 12.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 16.0, 7.0, 0.0, 0.0},
+  {0.0, 3.0, 15.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 3.0, 10.0, 8.0, 15.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 8.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 16.0, 16.0, 8.0, 0.0, 0.0, 1.0, 15.0, 16.0, 15.0, 7.0, 2.0, 0.0, 0.0, 0.0, 5.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 7.0, 12.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 8.0, 16.0, 14.0, 15.0, 11.0, 0.0, 0.0, 0.0, 2.0, 11.0, 2.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 8.0, 5.0, 0.0, 0.0, 8.0, 13.0, 16.0, 16.0, 12.0, 5.0, 0.0, 0.0, 7.0, 16.0, 12.0, 3.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 12.0, 16.0, 16.0, 4.0, 0.0, 0.0, 0.0, 9.0, 7.0, 4.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 9.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 12.0, 13.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 9.0, 14.0, 9.0, 0.0, 0.0, 0.0, 5.0, 16.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 4.0, 11.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 12.0, 13.0, 5.0, 0.0, 0.0, 0.0, 4.0, 13.0, 4.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 15.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 2.0, 0.0, 0.0, 7.0, 8.0, 0.0, 0.0, 12.0, 7.0, 0.0, 0.0, 8.0, 9.0, 1.0, 3.0, 16.0, 3.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 7.0, 12.0, 15.0, 1.0, 0.0, 0.0, 1.0, 16.0, 14.0, 9.0, 6.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 15.0, 15.0, 5.0, 0.0, 0.0, 0.0, 1.0, 6.0, 4.0, 10.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 11.0, 0.0, 0.0, 0.0, 0.0, 10.0, 4.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 10.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 2.0, 10.0, 5.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 7.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 4.0, 0.0, 0.0, 0.0, 13.0, 0.0, 0.0, 4.0, 12.0, 0.0, 0.0, 0.0, 13.0, 6.0, 4.0, 8.0, 13.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 6.0, 0.0},
+  {0.0, 0.0, 12.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 7.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 16.0, 2.0, 1.0, 13.0, 4.0, 0.0, 0.0, 0.0, 9.0, 13.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 6.0, 16.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 3.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 8.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 13.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 13.0, 10.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 11.0, 16.0, 15.0, 8.0, 5.0, 0.0, 0.0, 0.0, 2.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 2.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 9.0, 12.0, 12.0, 0.0, 0.0, 0.0, 0.0, 14.0, 10.0, 8.0, 3.0, 0.0, 0.0, 0.0, 0.0, 13.0, 6.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 15.0, 12.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 0.0, 0.0, 0.0, 5.0, 1.0, 2.0, 11.0, 8.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 11.0, 1.0, 0.0},
+  {0.0, 0.0, 3.0, 8.0, 11.0, 13.0, 14.0, 0.0, 0.0, 2.0, 13.0, 16.0, 13.0, 13.0, 13.0, 0.0, 0.0, 1.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 11.0, 10.0, 1.0, 0.0, 0.0, 0.0, 3.0, 16.0, 14.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 8.0, 3.0, 9.0, 11.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 14.0, 11.0, 0.0, 0.0, 0.0, 0.0, 2.0, 12.0, 13.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 11.0, 13.0, 1.0, 0.0, 0.0, 0.0, 6.0, 16.0, 11.0, 13.0, 6.0, 0.0, 0.0, 1.0, 16.0, 8.0, 0.0, 11.0, 4.0, 0.0, 0.0, 0.0, 4.0, 4.0, 0.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 9.0, 4.0, 5.0, 0.0, 0.0, 0.0, 1.0, 14.0, 13.0, 12.0, 15.0, 5.0},
+  {0.0, 0.0, 7.0, 14.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 14.0, 14.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 12.0, 0.0, 0.0, 0.0, 0.0, 4.0, 4.0, 14.0, 9.0, 2.0, 0.0, 0.0, 7.0, 16.0, 16.0, 16.0, 16.0, 7.0, 0.0, 0.0, 6.0, 12.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 13.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 14.0, 7.0, 0.0, 0.0, 0.0, 0.0, 14.0, 15.0, 1.0, 11.0, 0.0, 0.0, 0.0, 0.0, 16.0, 15.0, 0.0, 14.0, 1.0, 0.0, 0.0, 1.0, 16.0, 10.0, 0.0, 14.0, 2.0, 0.0, 0.0, 0.0, 15.0, 13.0, 3.0, 15.0, 3.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 12.0, 8.0, 0.0, 1.0, 0.0, 0.0, 0.0, 11.0, 16.0, 5.0, 13.0, 6.0, 0.0, 0.0, 0.0, 2.0, 15.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 7.0, 14.0, 14.0, 0.0, 0.0, 0.0, 3.0, 15.0, 7.0, 1.0, 14.0, 0.0, 0.0, 2.0, 16.0, 10.0, 5.0, 14.0, 8.0, 0.0, 0.0, 4.0, 15.0, 16.0, 12.0, 16.0, 5.0, 0.0, 0.0, 0.0, 5.0, 3.0, 1.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 7.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 6.0, 0.0, 0.0, 0.0, 0.0, 6.0, 10.0, 15.0, 13.0, 8.0, 3.0, 0.0, 0.0, 8.0, 16.0, 16.0, 16.0, 16.0, 12.0},
+  {0.0, 0.0, 5.0, 9.0, 13.0, 16.0, 6.0, 0.0, 0.0, 0.0, 12.0, 12.0, 7.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 3.0, 0.0, 0.0, 0.0, 3.0, 12.0, 15.0, 16.0, 14.0, 0.0, 0.0, 0.0, 7.0, 16.0, 15.0, 5.0, 1.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 6.0, 12.0, 2.0, 14.0, 13.0, 0.0, 0.0, 0.0, 9.0, 6.0, 1.0, 14.0, 14.0, 0.0, 0.0, 0.0, 2.0, 11.0, 12.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 12.0, 6.0, 0.0, 0.0, 0.0, 8.0, 9.0, 13.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 3.0, 13.0, 13.0, 3.0, 0.0, 0.0, 0.0, 2.0, 14.0, 12.0, 12.0, 11.0, 0.0, 0.0, 0.0, 4.0, 16.0, 8.0, 5.0, 15.0, 3.0, 0.0, 0.0, 1.0, 13.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 1.0, 16.0, 12.0, 13.0, 14.0, 1.0, 0.0, 0.0, 0.0, 13.0, 13.0, 9.0, 16.0, 7.0, 0.0, 0.0, 0.0, 3.0, 13.0, 16.0, 10.0, 1.0, 0.0},
+  {0.0, 3.0, 16.0, 13.0, 15.0, 16.0, 11.0, 0.0, 0.0, 5.0, 16.0, 14.0, 12.0, 8.0, 10.0, 0.0, 0.0, 2.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 11.0, 0.0, 0.0, 0.0, 3.0, 6.0, 8.0, 16.0, 7.0, 0.0, 0.0, 0.0, 2.0, 15.0, 15.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 15.0, 16.0, 4.0, 0.0, 0.0, 0.0, 10.0, 14.0, 0.0, 9.0, 14.0, 0.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 12.0, 5.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 5.0, 14.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 16.0, 7.0, 12.0, 16.0, 4.0, 0.0, 0.0, 0.0, 9.0, 16.0, 15.0, 7.0, 0.0, 0.0},
+  {0.0, 5.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 9.0, 8.0, 8.0, 3.0, 0.0, 0.0, 8.0, 16.0, 16.0, 16.0, 16.0, 4.0, 0.0},
+  {0.0, 0.0, 3.0, 12.0, 11.0, 1.0, 0.0, 0.0, 0.0, 1.0, 14.0, 14.0, 15.0, 8.0, 0.0, 0.0, 0.0, 3.0, 16.0, 2.0, 5.0, 16.0, 1.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 14.0, 6.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 3.0, 16.0, 2.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 10.0, 15.0, 13.0, 16.0, 3.0, 0.0, 0.0, 0.0, 1.0, 15.0, 14.0, 6.0, 0.0, 0.0},
+  {0.0, 1.0, 3.0, 15.0, 15.0, 2.0, 0.0, 0.0, 2.0, 16.0, 16.0, 12.0, 16.0, 6.0, 0.0, 0.0, 1.0, 15.0, 7.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 8.0, 12.0, 7.0, 16.0, 0.0, 0.0, 0.0, 0.0, 4.0, 15.0, 16.0, 14.0, 0.0, 0.0},
+  {0.0, 0.0, 6.0, 15.0, 14.0, 1.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 3.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 2.0, 6.0, 12.0, 16.0, 7.0, 2.0, 0.0, 0.0, 13.0, 16.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 10.0, 13.0, 16.0, 7.0, 1.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 12.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 8.0, 9.0, 1.0, 12.0, 0.0, 0.0, 0.0, 2.0, 16.0, 9.0, 0.0, 10.0, 5.0, 0.0, 0.0, 4.0, 16.0, 8.0, 0.0, 7.0, 8.0, 0.0, 0.0, 1.0, 16.0, 3.0, 0.0, 10.0, 7.0, 0.0, 0.0, 0.0, 8.0, 13.0, 9.0, 16.0, 6.0, 0.0, 0.0, 0.0, 1.0, 10.0, 16.0, 13.0, 1.0, 0.0},
+  {0.0, 0.0, 4.0, 13.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 16.0, 10.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0, 14.0, 7.0, 6.0, 11.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 9.0, 0.0, 0.0, 1.0, 4.0, 4.0, 6.0, 12.0, 10.0, 0.0, 0.0, 1.0, 6.0, 11.0, 15.0, 12.0, 1.0, 0.0},
+  {0.0, 3.0, 15.0, 8.0, 8.0, 6.0, 0.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 13.0, 2.0, 0.0, 0.0, 3.0, 16.0, 9.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 7.0, 6.0, 12.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 5.0, 14.0, 15.0, 2.0, 0.0, 0.0, 0.0, 1.0, 15.0, 14.0, 1.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 12.0, 9.0, 9.0, 8.0, 1.0, 0.0, 0.0, 2.0, 15.0, 8.0, 8.0, 8.0, 2.0, 0.0, 0.0, 8.0, 12.0, 8.0, 5.0, 0.0, 0.0, 0.0, 0.0, 8.0, 15.0, 9.0, 14.0, 9.0, 0.0, 0.0, 0.0, 2.0, 1.0, 0.0, 1.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 11.0, 0.0, 0.0, 1.0, 8.0, 4.0, 5.0, 14.0, 9.0, 0.0, 0.0, 1.0, 11.0, 16.0, 12.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 12.0, 13.0, 1.0, 0.0, 0.0, 0.0, 5.0, 12.0, 2.0, 6.0, 13.0, 0.0, 0.0, 0.0, 11.0, 5.0, 0.0, 6.0, 12.0, 0.0, 0.0, 0.0, 7.0, 10.0, 4.0, 13.0, 15.0, 0.0, 0.0, 0.0, 1.0, 11.0, 12.0, 7.0, 12.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 9.0, 0.0, 0.0, 0.0, 10.0, 5.0, 0.0, 3.0, 13.0, 0.0, 0.0, 0.0, 6.0, 12.0, 16.0, 13.0, 10.0, 0.0},
+  {0.0, 0.0, 1.0, 12.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 10.0, 2.0, 0.0, 0.0, 0.0, 0.0, 4.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 10.0, 11.0, 16.0, 14.0, 1.0, 0.0, 0.0, 2.0, 16.0, 10.0, 3.0, 7.0, 11.0, 0.0, 0.0, 0.0, 13.0, 8.0, 1.0, 8.0, 12.0, 0.0, 0.0, 0.0, 2.0, 12.0, 16.0, 15.0, 5.0, 0.0},
+  {0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 16.0, 2.0, 0.0, 0.0, 3.0, 12.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 10.0, 16.0, 15.0, 16.0, 15.0, 0.0, 0.0, 0.0, 1.0, 4.0, 0.0, 16.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 6.0, 0.0},
+  {0.0, 0.0, 9.0, 16.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0, 12.0, 13.0, 14.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 14.0, 1.0, 0.0, 0.0, 0.0, 1.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 16.0, 12.0, 7.0, 0.0, 0.0, 0.0, 0.0, 9.0, 14.0, 16.0, 16.0, 2.0, 0.0},
+  {0.0, 0.0, 7.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 16.0, 12.0, 10.0, 15.0, 1.0, 0.0, 0.0, 0.0, 10.0, 4.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 7.0, 0.0, 0.0, 0.0, 8.0, 4.0, 10.0, 15.0, 2.0, 0.0, 0.0, 0.0, 12.0, 16.0, 16.0, 6.0, 0.0, 0.0},
+  {0.0, 0.0, 9.0, 13.0, 14.0, 5.0, 0.0, 0.0, 0.0, 4.0, 16.0, 10.0, 13.0, 16.0, 0.0, 0.0, 0.0, 0.0, 13.0, 15.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 7.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 3.0, 0.0, 0.0, 1.0, 15.0, 5.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 7.0, 15.0, 16.0, 9.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 16.0, 5.0, 0.0, 0.0, 0.0, 1.0, 10.0, 16.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 16.0, 15.0, 0.0, 0.0},
+  {0.0, 1.0, 10.0, 15.0, 16.0, 13.0, 3.0, 0.0, 0.0, 5.0, 14.0, 5.0, 5.0, 15.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 6.0, 0.0, 0.0, 0.0, 2.0, 3.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 15.0, 12.0, 1.0, 0.0, 0.0, 0.0, 8.0, 13.0, 8.0, 12.0, 6.0, 0.0, 0.0, 0.0, 4.0, 2.0, 0.0, 8.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 0.0, 4.0, 4.0, 0.0, 0.0, 0.0, 10.0, 12.0, 9.0, 15.0, 11.0, 0.0, 0.0, 0.0, 9.0, 16.0, 9.0, 7.0, 1.0, 0.0},
+  {0.0, 0.0, 3.0, 12.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 15.0, 14.0, 16.0, 6.0, 0.0, 0.0, 0.0, 6.0, 16.0, 0.0, 6.0, 16.0, 6.0, 0.0, 0.0, 5.0, 16.0, 11.0, 14.0, 16.0, 4.0, 0.0, 0.0, 0.0, 8.0, 10.0, 12.0, 16.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 7.0, 15.0, 1.0, 0.0, 0.0, 0.0, 8.0, 10.0, 10.0, 16.0, 2.0, 0.0, 0.0, 0.0, 2.0, 13.0, 14.0, 7.0, 0.0, 0.0},
+  {0.0, 0.0, 14.0, 16.0, 15.0, 3.0, 0.0, 0.0, 0.0, 0.0, 6.0, 5.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 10.0, 0.0, 0.0, 0.0, 1.0, 3.0, 0.0, 4.0, 15.0, 8.0, 0.0, 0.0, 6.0, 15.0, 0.0, 0.0, 9.0, 15.0, 0.0, 0.0, 5.0, 16.0, 5.0, 6.0, 14.0, 14.0, 0.0, 0.0, 1.0, 11.0, 16.0, 16.0, 14.0, 2.0, 0.0},
+  {0.0, 0.0, 0.0, 1.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 12.0, 0.0, 3.0, 9.0, 0.0, 0.0, 0.0, 14.0, 2.0, 0.0, 10.0, 7.0, 0.0, 0.0, 6.0, 13.0, 5.0, 11.0, 14.0, 1.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 1.0, 2.0, 1.0, 14.0, 1.0, 0.0, 0.0},
+  {0.0, 1.0, 12.0, 16.0, 13.0, 2.0, 0.0, 0.0, 0.0, 5.0, 14.0, 6.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 7.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 12.0, 16.0, 11.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 7.0, 0.0, 0.0, 0.0, 6.0, 0.0, 4.0, 14.0, 7.0, 0.0, 0.0, 0.0, 16.0, 16.0, 15.0, 8.0, 1.0, 0.0},
+  {0.0, 0.0, 0.0, 5.0, 12.0, 0.0, 2.0, 1.0, 0.0, 0.0, 1.0, 14.0, 4.0, 1.0, 14.0, 8.0, 0.0, 0.0, 10.0, 8.0, 0.0, 9.0, 15.0, 1.0, 0.0, 1.0, 15.0, 1.0, 2.0, 15.0, 8.0, 0.0, 0.0, 5.0, 16.0, 6.0, 11.0, 16.0, 2.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 11.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 12.0, 7.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 2.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 5.0, 16.0, 10.0, 16.0, 4.0, 0.0, 0.0, 2.0, 15.0, 10.0, 0.0, 8.0, 1.0, 0.0, 0.0, 5.0, 16.0, 9.0, 1.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 10.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 16.0, 7.0, 0.0, 0.0, 0.0, 0.0, 1.0, 8.0, 13.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 13.0, 13.0, 8.0, 0.0, 0.0, 0.0, 0.0, 16.0, 11.0, 13.0, 16.0, 6.0, 0.0, 0.0, 1.0, 16.0, 5.0, 2.0, 14.0, 9.0, 0.0, 0.0, 0.0, 9.0, 16.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 14.0, 14.0, 0.0, 0.0, 0.0, 5.0, 15.0, 4.0, 0.0, 16.0, 6.0, 0.0, 0.0, 6.0, 14.0, 7.0, 6.0, 16.0, 4.0, 0.0, 0.0, 0.0, 7.0, 15.0, 16.0, 10.0, 0.0, 0.0},
+  {0.0, 8.0, 16.0, 12.0, 15.0, 16.0, 7.0, 0.0, 0.0, 13.0, 16.0, 14.0, 6.0, 4.0, 1.0, 0.0, 0.0, 12.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 2.0, 0.0, 0.0, 0.0, 1.0, 4.0, 6.0, 16.0, 5.0, 0.0, 0.0, 0.0, 7.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 7.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 5.0, 16.0, 13.0, 16.0, 8.0, 0.0, 0.0, 0.0, 9.0, 11.0, 0.0, 4.0, 16.0, 4.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 11.0, 11.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 8.0, 12.0, 0.0, 0.0, 8.0, 13.0, 0.0, 0.0, 12.0, 10.0, 0.0, 0.0, 2.0, 16.0, 9.0, 12.0, 15.0, 3.0, 0.0, 0.0, 0.0, 8.0, 16.0, 13.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 2.0, 9.0, 16.0, 10.0, 0.0, 0.0, 0.0, 7.0, 15.0, 8.0, 7.0, 12.0, 0.0, 0.0, 1.0, 15.0, 3.0, 0.0, 11.0, 12.0, 0.0, 0.0, 8.0, 14.0, 9.0, 13.0, 16.0, 8.0, 0.0, 0.0, 1.0, 7.0, 7.0, 3.0, 13.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 4.0, 0.0, 0.0},
+  {0.0, 0.0, 10.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 13.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 12.0, 1.0, 11.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 6.0, 4.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 16.0, 16.0, 4.0, 0.0, 0.0, 11.0, 15.0, 9.0, 8.0, 6.0, 0.0},
+  {0.0, 0.0, 0.0, 8.0, 14.0, 15.0, 7.0, 0.0, 0.0, 0.0, 4.0, 16.0, 12.0, 15.0, 14.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 11.0, 12.0, 0.0, 0.0, 0.0, 2.0, 4.0, 6.0, 14.0, 15.0, 0.0, 0.0, 4.0, 16.0, 16.0, 16.0, 16.0, 5.0, 0.0, 0.0, 8.0, 12.0, 7.0, 14.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 7.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 11.0, 16.0, 12.0, 1.0, 0.0, 0.0, 0.0, 3.0, 16.0, 9.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 6.0, 1.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 16.0, 4.0, 5.0, 8.0, 1.0, 0.0, 0.0, 13.0, 16.0, 16.0, 16.0, 16.0, 6.0},
+  {0.0, 0.0, 5.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 14.0, 14.0, 0.0, 0.0, 0.0, 2.0, 14.0, 4.0, 14.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 13.0, 0.0, 0.0, 0.0, 7.0, 11.0, 8.0, 16.0, 11.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 10.0, 1.0, 0.0},
+  {0.0, 2.0, 15.0, 16.0, 16.0, 14.0, 2.0, 0.0, 0.0, 3.0, 16.0, 14.0, 9.0, 10.0, 1.0, 0.0, 0.0, 7.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 15.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 13.0, 1.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 8.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 13.0, 11.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 13.0, 3.0, 0.0, 0.0, 0.0, 0.0, 3.0, 1.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 15.0, 8.0, 8.0, 3.0, 0.0, 0.0, 0.0, 7.0, 12.0, 12.0, 12.0, 13.0, 1.0},
+  {0.0, 0.0, 2.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 11.0, 13.0, 12.0, 11.0, 2.0, 0.0, 0.0, 0.0, 14.0, 16.0, 14.0, 10.0, 14.0, 0.0, 0.0, 0.0, 13.0, 7.0, 3.0, 0.0, 14.0, 6.0, 0.0, 0.0, 10.0, 14.0, 4.0, 8.0, 16.0, 7.0, 0.0, 0.0, 2.0, 14.0, 16.0, 15.0, 8.0, 0.0},
+  {0.0, 1.0, 10.0, 16.0, 16.0, 6.0, 0.0, 0.0, 0.0, 7.0, 14.0, 9.0, 12.0, 12.0, 0.0, 0.0, 0.0, 1.0, 1.0, 5.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 14.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 14.0, 16.0, 6.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0, 7.0, 8.0, 13.0, 16.0, 5.0, 0.0, 0.0, 0.0, 15.0, 16.0, 12.0, 5.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 10.0, 15.0, 2.0, 0.0, 0.0, 0.0, 0.0, 7.0, 16.0, 7.0, 3.0, 5.0, 0.0, 0.0, 3.0, 16.0, 7.0, 3.0, 16.0, 11.0, 0.0, 0.0, 9.0, 14.0, 1.0, 10.0, 14.0, 2.0, 0.0, 0.0, 11.0, 16.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 2.0, 4.0, 8.0, 16.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 9.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 9.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 16.0, 11.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 16.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 11.0, 0.0, 0.0, 0.0},
+  {0.0, 1.0, 9.0, 12.0, 13.0, 11.0, 0.0, 0.0, 0.0, 3.0, 15.0, 4.0, 3.0, 3.0, 0.0, 0.0, 0.0, 5.0, 12.0, 7.0, 6.0, 0.0, 0.0, 0.0, 0.0, 5.0, 16.0, 14.0, 13.0, 7.0, 0.0, 0.0, 0.0, 1.0, 8.0, 0.0, 2.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 14.0, 0.0, 0.0, 0.0, 0.0, 6.0, 2.0, 10.0, 6.0, 0.0, 0.0, 0.0, 0.0, 11.0, 16.0, 13.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 4.0, 15.0, 12.0, 2.0, 0.0, 0.0, 0.0, 2.0, 15.0, 7.0, 11.0, 10.0, 0.0, 0.0, 0.0, 4.0, 16.0, 0.0, 0.0, 15.0, 1.0, 0.0, 0.0, 6.0, 10.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 8.0, 8.0, 0.0, 0.0, 6.0, 8.0, 0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 11.0, 8.0, 0.0, 0.0, 2.0, 16.0, 7.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 6.0, 15.0, 16.0, 8.0, 0.0, 0.0},
+  {0.0, 2.0, 13.0, 13.0, 11.0, 9.0, 0.0, 0.0, 0.0, 10.0, 16.0, 16.0, 16.0, 15.0, 10.0, 0.0, 0.0, 11.0, 16.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.0, 15.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 11.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 11.0, 11.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 15.0, 4.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 0.0, 6.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 9.0, 15.0, 3.0, 0.0, 0.0, 1.0, 15.0, 7.0, 5.0, 15.0, 0.0, 0.0, 0.0, 9.0, 16.0, 4.0, 11.0, 14.0, 10.0, 0.0, 0.0, 9.0, 16.0, 16.0, 16.0, 16.0, 9.0, 0.0, 0.0, 0.0, 2.0, 4.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 10.0, 0.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 9.0, 13.0, 1.0, 0.0, 0.0, 0.0, 1.0, 12.0, 14.0, 5.0, 0.0, 0.0, 0.0, 0.0, 2.0, 16.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 15.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 3.0, 16.0, 16.0, 16.0, 15.0, 3.0, 0.0, 0.0, 2.0, 16.0, 11.0, 1.0, 9.0, 11.0, 0.0, 0.0, 0.0, 11.0, 13.0, 6.0, 12.0, 11.0, 0.0, 0.0, 0.0, 0.0, 6.0, 16.0, 15.0, 2.0, 0.0},
+  {0.0, 2.0, 13.0, 16.0, 15.0, 1.0, 0.0, 0.0, 0.0, 7.0, 13.0, 10.0, 16.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 2.0, 0.0, 0.0, 0.0, 0.0, 8.0, 16.0, 16.0, 10.0, 0.0, 0.0, 0.0, 0.0, 1.0, 4.0, 10.0, 16.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 16.0, 9.0, 0.0, 0.0, 2.0, 12.0, 6.0, 6.0, 16.0, 6.0, 0.0, 0.0, 1.0, 15.0, 16.0, 16.0, 9.0, 1.0, 0.0},
+  {0.0, 2.0, 15.0, 16.0, 12.0, 0.0, 0.0, 0.0, 0.0, 8.0, 11.0, 8.0, 16.0, 0.0, 0.0, 0.0, 0.0, 3.0, 1.0, 7.0, 13.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 5.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 11.0, 6.0, 5.0, 2.0, 0.0, 0.0, 1.0, 16.0, 16.0, 16.0, 16.0, 9.0, 0.0},
+  {0.0, 5.0, 16.0, 16.0, 16.0, 16.0, 10.0, 0.0, 0.0, 4.0, 10.0, 4.0, 4.0, 4.0, 0.0, 0.0, 0.0, 10.0, 10.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0, 16.0, 13.0, 7.0, 1.0, 0.0, 0.0, 0.0, 0.0, 2.0, 8.0, 14.0, 14.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 7.0, 0.0, 0.0, 3.0, 3.0, 2.0, 11.0, 15.0, 0.0, 0.0, 0.0, 5.0, 16.0, 16.0, 12.0, 1.0, 0.0, 0.0},
+  {0.0, 0.0, 5.0, 12.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 14.0, 10.0, 14.0, 12.0, 0.0, 0.0, 0.0, 2.0, 16.0, 16.0, 8.0, 11.0, 2.0, 0.0, 0.0, 3.0, 16.0, 11.0, 0.0, 9.0, 3.0, 0.0, 0.0, 5.0, 12.0, 2.0, 0.0, 12.0, 4.0, 0.0, 0.0, 1.0, 12.0, 0.0, 0.0, 13.0, 3.0, 0.0, 0.0, 0.0, 13.0, 6.0, 8.0, 13.0, 0.0, 0.0, 0.0, 0.0, 3.0, 14.0, 12.0, 3.0, 0.0, 0.0},
+  {0.0, 0.0, 1.0, 14.0, 8.0, 8.0, 1.0, 0.0, 0.0, 0.0, 10.0, 13.0, 8.0, 16.0, 1.0, 0.0, 0.0, 2.0, 16.0, 4.0, 10.0, 11.0, 0.0, 0.0, 0.0, 7.0, 15.0, 6.0, 14.0, 16.0, 13.0, 0.0, 0.0, 3.0, 16.0, 16.0, 15.0, 9.0, 2.0, 0.0, 0.0, 0.0, 3.0, 11.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 12.0, 0.0, 0.0, 0.0, 0.0},
+  {0.0, 2.0, 10.0, 14.0, 11.0, 1.0, 0.0, 0.0, 0.0, 7.0, 15.0, 8.0, 16.0, 4.0, 0.0, 0.0, 0.0, 1.0, 1.0, 6.0, 15.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 15.0, 9.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 16.0, 15.0, 9.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 6.0, 15.0, 8.0, 0.0, 0.0, 2.0, 8.0, 4.0, 6.0, 15.0, 7.0, 0.0, 0.0, 2.0, 13.0, 16.0, 15.0, 9.0, 0.0, 0.0}};
+
+  for(int i = 0; i < 360; i++){
+    printf("%.1lf,\n", score(data_test[i]));
+  }
+  
+  return 0;
+}
